@@ -18,10 +18,9 @@
         <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
           
           <a href="#/new/{{template.id}}" class="list-item">
-            <img src="{{template.thumbnail}}" width="100" height="100" />
+            <img src="{{template.thumbnail}}" />
             <div>Name: {{template.name}}</div>
             <div>Description: {{template.description}}</div>
-            <div>Theme: {{template.theme}}</div>
           </a>
           
         </li>

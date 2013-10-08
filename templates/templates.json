@@ -1,19 +1,51 @@
 [
     {
         "id": 1,
-        "name":"8.5x11 SD",
-        "description": "8.5 by 11 Spirit Duck Template",
-        "keywords": "green, lime",
+        "name":"8.5x11",
+        "description": "8.5 in. by 11 in. with name, description and price.",
+        "keywords": "name, description, price, portrait, up, tall",
         "size":93.5,
-        "theme":"SD",
-        "thumbnail":"http://upload.wikimedia.org/wikipedia/en/thumb/4/44/Strand_Emitter.jpg/100px-Strand_Emitter.jpg"
+        "theme":"",
+        "thumbnail":"/img/layout/8511a_thumbnail.png"
     },{
         "id": 2,
-        "name":"8.5x11 CD",
-        "description": "8.5 by 11 Creative Duck Template",
-        "keywords": "red, art, downstairs",
-        "size":91.5,
-        "theme":"CD",
-        "thumbnail":"http://chandra.harvard.edu/photo/2012/ngc3627/ngc3627_xray_thm100.jpg"
+        "name":"11x7",
+        "description": "11 in. by 7 in. with name and description.",
+        "keywords": "name, description, landscape, sideways, horizontal",
+        "size":77,
+        "theme":"",
+        "thumbnail":"/img/layout/117a_thumbnail.png"
+    },{
+        "id": 3,
+        "name":"11x7 Cut",
+        "description": "11 in. by 7 in. with name, description and a dashed line to trim at.",
+        "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line",
+        "size":77,
+        "theme":"",
+        "thumbnail":"/img/layout/117b_thumbnail.png"
+    },{
+        "id": 4,
+        "name":"5x7",
+        "description": "5 in. by 7 in. with name, description and price.",
+        "keywords": "name, description, price, portrait, up, tall",
+        "size":35,
+        "theme":"",
+        "thumbnail":"/img/layout/57a_thumbnail.png"
+    },{
+        "id": 5,
+        "name":"3.5x5.25",
+        "description": "3.5 in. by 5.25 in. with name and description",
+        "keywords": "name, description, portrait, up, tall",
+        "size":18.375,
+        "theme":"",
+        "thumbnail":"/img/layout/35525a_thumbnail.png"
+    },{
+        "id": 6,
+        "name":"5.25x3.5",
+        "description": "5.25 in. by 3.5 in. with name and price",
+        "keywords": "name, description, landscape, sideways, horizontal",
+        "size":18.375,
+        "theme":"",
+        "thumbnail":"/img/layout/35525b_thumbnail.png"
     }
 ]

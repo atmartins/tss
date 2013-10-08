@@ -24,4 +24,4 @@ a.list-item {
   padding: 0;
   margin: 10px;
 }
-.list img {float:right;}
+.list img {float:right;box-shadow: 1px 1px 10px #ccc;}
