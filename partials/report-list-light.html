@@ -1,0 +1,28 @@
+<div class="container-fluid">
+  <div class="row-fluid">
+    <div class="span2">
+      <!--Sidebar content-->
+
+      Search: <input ng-model="query">
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="id">ID</option>
+        <option value="created_uid">Created By</option>
+        <option value="auditorId">auditorId</option>
+      </select>
+
+    </div>
+    <div class="span10">
+      <!--Body content-->
+
+      <ul class="phones">
+        <li ng-repeat="report in reports | filter:query | orderBy:orderProp" class="thumbnail">
+          <p>ID: <a href="#/reports/{{report.id}}">{{report.id}}</a></p>
+          <p>Group id: {{report.groupId}}</p>
+          <p>Creator: {{report.created_uid}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
