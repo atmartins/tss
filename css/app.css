@@ -25,3 +25,19 @@ a.list-item {
   margin: 10px;
 }
 .list img {float:right;box-shadow: 1px 1px 10px #ccc;}
+
+.theme-CD {
+  color:#ac281b;
+}
+.theme-DD {
+  color:#763e7b;
+}
+.theme-SD {
+  color:#89c33b;
+}
+.theme-LD {
+  color:#3cb0e3;
+}
+.theme-DS {
+  color:#f4a236; /*mustard*/
+}

@@ -14,6 +14,14 @@ angular.module('tssServices', ['ngResource']).
 angular.module('tssServices', ['ngResource']).
   factory('Template', function($resource){
     return $resource('templates/:templateId.json', {}, {
-    query: {method:'GET', params:{templateId:'templates'}, isArray:true}
+    	query: {method:'GET', params:{templateId:'templates'}, isArray:true}
   });
+});
+
+
+angular.module('tssServices').
+  factory('SharedService', function(){
+    return {
+    	thingy:'hi shared services'
+    };
 });

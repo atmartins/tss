@@ -1,5 +1,13 @@
-Edit
-<div superman>Here's some content</div>
-<h1>{{template.name}}</h1>
-<h2>{{template.description}}</h2>
-<div>{{editFields}}</div>
+
+<div class="edit layout-{{template.id}} theme-{{template.theme}}">
+	<h1>Edit</h1>
+	<h2>Theme:{{template.theme}}</h2>
+	<h3>{{template.description}}</h3>
+	<div>{{template.fields.disclaimer}}</div>
+	<div superman>Here's some content</div>
+	<div switchtheme theme="DD">DD theme</div>
+	<div switchtheme theme="CD">CD theme</div>
+	<div switchtheme theme="DS">DS theme</div>
+	<div switchtheme theme="LD">LD theme</div>
+	<div switchtheme theme="SD">SD theme</div>
+</div>

@@ -1,13 +1,12 @@
     <h2>Create</h2>
-    
+    Theme:{{thingy}}
     <div class="sidebar">
-      Search list: <input ng-model="query">
+      Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
+      <br />
       Sort list by:
       <select ng-model="orderProp">
         <option value="size">Size</option>
         <option value="id">ID</option>
-        <option value="layout">Layout</option>
-        <option value="theme">Theme</option>
       </select>
     </div>
 
@@ -17,10 +16,14 @@
       <ul class="templates">
         <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
           
-          <a href="#/new/{{template.id}}" class="list-item">
+          
+            <div switchtheme theme="DD">DD theme</div>
             <img src="{{template.thumbnail}}" />
             <div>Name: {{template.name}}</div>
             <div>Description: {{template.description}}</div>
+            <div>{{template.id}}</div>
+          <a href="#/new/{{template.id}}" class="list-item">
+          GO >>
           </a>
           
         </li>
