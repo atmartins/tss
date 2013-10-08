@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "name":"8.5x11 SD",
+        "description": "8.5 by 11 Spirit Duck Template",
+        "keywords": "green, lime",
+        "size":93.5,
+        "theme":"SD",
+        "thumbnail":"http://upload.wikimedia.org/wikipedia/en/thumb/4/44/Strand_Emitter.jpg/100px-Strand_Emitter.jpg"
+    },{
+        "id": 2,
+        "name":"8.5x11 CD",
+        "description": "8.5 by 11 Creative Duck Template",
+        "keywords": "red, art, downstairs",
+        "size":91.5,
+        "theme":"CD",
+        "thumbnail":"http://chandra.harvard.edu/photo/2012/ngc3627/ngc3627_xray_thm100.jpg"
+    }
+]

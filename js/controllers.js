@@ -2,16 +2,27 @@
 
 /* Controllers */
 
-function ReportListCtrl($scope, Report) {
-  $scope.reports = Report.query();
-  $scope.orderProp = 'id';
+function TemplateListCtrl($scope, Template) {
+  $scope.templates = Template.query();
+  $scope.orderProp = 'size';
+}
+ 
+
+function TemplateNewDetailCtrl($scope, $routeParams, Template) {
+  $scope.template = Template.get({templateId: $routeParams.templateId}, function(template) {
+   // $scope.mainImageUrl = template.images[0];
+   $scope.editFields = 'hi edit fields';
+  });
+
+  $scope.setImage = function(imageUrl) {
+    $scope.mainImageUrl = imageUrl;
+  }
 }
 
-//PhoneListCtrl.$inject = ['$scope', 'Phone'];
 
-function ReportDetailCtrl($scope, $routeParams, Report) {
-  $scope.report = Report.get({reportId: $routeParams.reportId}, function(report) {
-    $scope.mainImageUrl = report.images[0];
+function SignEditDetailCtrl($scope, $routeParams, Sign) {
+  $scope.sign = Sign.get({signId: $routeParams.signId}, function(sign) {
+    //$scope.mainImageUrl = sign.images[0];
   });
 
   $scope.setImage = function(imageUrl) {

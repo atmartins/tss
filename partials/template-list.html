@@ -1,0 +1,30 @@
+    <h2>Create</h2>
+    
+    <div class="sidebar">
+      Search list: <input ng-model="query">
+      Sort list by:
+      <select ng-model="orderProp">
+        <option value="size">Size</option>
+        <option value="id">ID</option>
+        <option value="layout">Layout</option>
+        <option value="theme">Theme</option>
+      </select>
+    </div>
+
+    <h3>Choose a Template:</h3>
+    <div class="span10">
+      <!--Body content-->
+      <ul class="templates">
+        <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
+          
+          <a href="#/new/{{template.id}}" class="list-item">
+            <img src="{{template.thumbnail}}" width="100" height="100" />
+            <div>Name: {{template.name}}</div>
+            <div>Description: {{template.description}}</div>
+            <div>Theme: {{template.theme}}</div>
+          </a>
+          
+        </li>
+      </ul>
+
+    </div>

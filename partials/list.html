@@ -16,13 +16,10 @@
     </div>
     <div class="span10">
       <!--Body content-->
-      <ul class="phones">
-        <li ng-repeat="report in reports | filter:query | orderBy:orderProp" class="thumbnail">
+      <ul class="signs">
+        <li ng-repeat="sign in signs | filter:query | orderBy:orderProp" class="thumbnail">
           <ul>
-          <li>ID: <a href="#/reports/{{report.id}}">{{report.id}}</a></li>
-          <li>Creator: {{report.created}} by {{report.created_uid}}</li>
-          <li>Updated: {{report.last_updated}} by {{report.updated_uid}}</li>
-          <li>Group: {{report.group_slug}}</li>
+          <li>ID: <a href="#/edit/{{sign.id}}">{{sign.id}} {{sign.name}}</a></li>
         </li>
       </ul>
 

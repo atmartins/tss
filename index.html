@@ -1,20 +1,32 @@
 <!doctype html>
-<html lang="en" ng-app="phonecat">
+<html lang="en" ng-app="tss">
 <head>
   <meta charset="utf-8">
   <title>Google Phone Gallery</title>
-  <link rel="stylesheet" href="css/app.css">
+  
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
   <script src="lib/angular/angular.js"></script>
   <script src="js/app.js"></script>
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/services.js"></script>
+  <script src="js/directives.js"></script>
   <script src="lib/angular/angular-resource.js"></script>
 </head>
 <body>
-
-  <div ng-view></div>
-
+  <div id="header">
+    <h1>Template Sign System</h1>
+    <ul id="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/#/template-list">Create</a></li>
+    </ul>
+  </div>
+  
+  <div id="content">
+    <div ng-view></div>
+  </div>
+  <div id="footer">
+  </div>
 </body>
 </html>

@@ -1,0 +1,506 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"queue",
+				"queueComplete"
+			],
+			[
+				"qu",
+				"queueBackout"
+			],
+			[
+				"addSli",
+				"addSlideFromUrl"
+			],
+			[
+				"get",
+				"getSlide"
+			],
+			[
+				"slidetostart",
+				"SLIDETOSTARTON"
+			],
+			[
+				"domEl",
+				"DomElement"
+			],
+			[
+				"Print",
+				"PrintDimensions"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"html",
+				"html	html5-basic-jquery"
+			],
+			[
+				"res",
+				"responseKey"
+			],
+			[
+				"req",
+				"requestKey"
+			],
+			[
+				"PASS",
+				"LDAP_PASSWORD"
+			],
+			[
+				"LDAP",
+				"LDAP_USER"
+			],
+			[
+				"remo",
+				"remotePath"
+			],
+			[
+				"checked",
+				"checked_mouse_hover"
+			],
+			[
+				"navi",
+				"navigationBoxId"
+			],
+			[
+				"referer",
+				"referer_ops"
+			],
+			[
+				"inin",
+				"inline-block"
+			],
+			[
+				"unsub",
+				"unsubscribing"
+			],
+			[
+				"user",
+				"usersubmitted"
+			],
+			[
+				"Attr",
+				"AttributeID"
+			],
+			[
+				"up",
+				"update_checkboxes"
+			],
+			[
+				"contact",
+				"contactEmail"
+			],
+			[
+				"liter",
+				"literaryduck_https_url"
+			],
+			[
+				"lier",
+				"literaryduck_url"
+			],
+			[
+				"spirit",
+				"spiritduck_url"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"sav",
+				"Project: Save As"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"tid",
+				"Tidy PHP"
+			],
+			[
+				"tidy",
+				"Tidy PHP"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"form",
+				"Format Code"
+			],
+			[
+				"cod",
+				"Format Code"
+			],
+			[
+				"code",
+				"Format Code"
+			],
+			[
+				"Packa",
+				"Package Control: Disable Package"
+			],
+			[
+				"Package",
+				"Package Control: Enable Package"
+			],
+			[
+				"Pac	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/wamp/www/tss/js/app.js",
+		"/C/wamp/www/tss/js/controllers.js",
+		"/C/wamp/www/tss/js/directives.js",
+		"/C/wamp/www/tss/js/filters.js",
+		"/C/wamp/www/tss/js/services.js",
+		"/C/wamp/www/tss/reports/app_rmc_reports_checkboxes_state.json",
+		"/C/Users/aaronm/Downloads/jquery-mobile-theme-090926-0/index.html",
+		"/C/wamp/www/tss/index-async.html",
+		"/C/wamp/www/tss/index.html",
+		"/C/wamp/www/tss/reports/1.json",
+		"/C/wamp/www/lou/getVolusionCat.html",
+		"/C/Users/aaronm/Desktop/getVolusionCat.html",
+		"/C/Users/aaronm/Desktop/board/temp.html",
+		"/C/Users/aaronm/Desktop/temp.html",
+		"/C/wamp/www/lou/6-tab-slideshow/src/6-tab-slideshow.js",
+		"/C/Users/aaronm/Downloads/FacebookSubscribeCode.html",
+		"/C/Users/aaronm/Desktop/randomloadimage_mbs_literary.js",
+		"/C/Users/aaronm/Dropbox/SharedShaneAaron/CasusJS/Game.js",
+		"/C/Users/aaronm/Dropbox/SharedShaneAaron/CasusJS/Casus.html",
+		"/C/Users/aaronm/Dropbox/SharedShaneAaron/CasusJS/Player.js",
+		"/C/Users/aaronm/Desktop/slideshowHTML.html",
+		"/C/Users/aaronm/Desktop/Casus/game.js",
+		"/C/Users/aaronm/Desktop/Casus/ui.js",
+		"/C/Users/aaronm/Desktop/Casus/player.js",
+		"/C/Users/aaronm/Desktop/Casus/Casus.html",
+		"/C/Users/aaronm/Desktop/Casus/casus.js",
+		"/C/Users/aaronm/Desktop/casus.js",
+		"/C/Users/aaronm/Desktop/Casus.html",
+		"/C/wamp/www/lou/6-tab-slideshow/src/css/slideshow.css",
+		"/C/wamp/www/lou/6-tab-slideshow/spec/SlideshowSpec.js",
+		"/C/wamp/www/lou/6-tab-slideshow/example/index.html",
+		"/C/wamp/www/uno/cats/books.js",
+		"/C/Users/aaronm/Desktop/jquery.js",
+		"//web1/wwwroot/adauth/Default.aspx.cs",
+		"//web1/wwwroot/adauth/test.php",
+		"/C/wamp/www/uno/cats/sports.js",
+		"/C/wamp/www/uno/cats/home.js",
+		"/C/Users/aaronm/Downloads/jasmine-standalone-1.3.1/SpecRunner.html",
+		"/C/Users/aaronm/Downloads/jasmine-standalone-1.3.1/src/Song.js",
+		"/C/Users/aaronm/Downloads/jasmine-standalone-1.3.1/src/Player.js",
+		"/C/Users/aaronm/Downloads/jasmine-standalone-1.3.1/spec/PlayerSpec.js",
+		"/C/wamp/www/lou/6-tab-slideshow/example/slides/forest.json",
+		"/C/wamp/www/lou/6-tab-slideshow/example/slides/ocean.json",
+		"/C/wamp/www/lou/temp.html",
+		"/C/wamp/www/lou/6-tab-slideshow/src/1.0/6-tab-slideshow.js",
+		"/C/wamp/www/lou/6-tab-slideshow/README.md",
+		"/C/wamp/www/lou/6-tab-slideshow/readme.md",
+		"/C/wamp/www/lou/6-tab-slideshow/example/slides/oceans.json",
+		"/C/wamp/www/lou/6-tab-slideshow/example/slides/oceans.js",
+		"/C/Users/aaronm/Desktop/6-tab-slideshow/example/index.html",
+		"/C/Users/aaronm/Desktop/6-tab-slideshow/src/1.0/6-tab-slideshow.dev.js",
+		"//web1/wwwroot/adauth/Default.aspx",
+		"/C/wamp/www/uno/cats/electronics.js",
+		"/C/wamp/www/aaronmartins/temp.html",
+		"/C/wamp/www/rmc2/sub/js/app.js",
+		"/C/wamp/www/rmc2/sub/index.html",
+		"/C/wamp/www/rmc2/sub/partials/report-list-light.html",
+		"/C/wamp/www/rmc2/sub/js/controllers.js",
+		"/C/wamp/www/rmc2/sub/js/services.js",
+		"/C/wamp/www/rmc2/reports/reports.json",
+		"/C/wamp/www/rmc2/sub/js/directives.js",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/Classes/_cTemplate.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/Classes/cDataManagement.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/Classes/cEntity.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/Classes/cTest.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/Classes/cUser.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/MBFunctions.php",
+		"//web1/wwwroot/Nexus/SB/index.php",
+		"/C/Users/aaronm/Documents/Visual Studio 2012/WebSites/WebSite1/Default.aspx",
+		"/C/Users/aaronm/Documents/Visual Studio 2012/WebSites/WebSite1/Default.aspx.cs",
+		"/C/Users/aaronm/Documents/Visual Studio 2012/WebSites/WebSite1/Web1.config",
+		"//web1/wwwroot/aaron/Default.aspx.cs",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/header 2.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/front-page.php",
+		"/C/Users/aaronm/Desktop/test/class/Ldap.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/.htaccess",
+		"/C/wamp/www/uno/cats/men.js",
+		"/C/wamp/www/uno/cats/women.js",
+		"/C/wamp/www/uno/cats/kids.js",
+		"/C/wamp/www/uno/cats/grads.js",
+		"/C/wamp/www/uno/cats/artsupplies.js",
+		"/C/wamp/www/uno/cats/schooloffice.js",
+		"/C/wamp/www/uno/cats/auto.js",
+		"/C/wamp/www/uno/cats/more.js",
+		"/C/Users/aaronm/Google Drive/Projects/0032 Listrak/Volusion Integration/Exporting info/Orders_C8ZE82BH66.csv",
+		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/listrakTarget.csv",
+		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/volusionOutput.xml",
+		"/C/wamp/www/lou/volusionOutput.xml",
+		"/C/wamp/www/lou/index.php",
+		"/C/wamp/www/lou/listrakTarget.csv",
+		"/C/wamp/www/lou/orders.txt",
+		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/volusionOutputSmall.xml",
+		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/functions.php",
+		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/Mobile_Detect.php",
+		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/pmr_admin_form.php",
+		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/php-mobile-redirect.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/dev.uoduckstore.com.com-error.log",
+		"/C/wamp/www/rmc2/sub/js/filters.js",
+		"/C/wamp/www/rmc2/js/services.js",
+		"/C/wamp/www/rmc2/index.html",
+		"/C/wamp/www/rmc2/js/directives.js",
+		"/C/wamp/www/rmc2/js/filters.js",
+		"/C/wamp/www/rmc2/js/controllers.js",
+		"/C/wamp/www/rmc2/js/app.js",
+		"/C/wamp/www/reports/1.json",
+		"/C/wamp/www/rmc2/js.html",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-05.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-03.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-06.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-08.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-09.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-07.txt",
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-04.txt",
+		"/C/Users/aaronm/Desktop/Ldap.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/ldap.php",
+		"/C/Users/aaronm/Desktop/ldap2.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/Ldap 2.php",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/error.log",
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/ldap2.php",
+		"/C/Users/aaronm/Desktop/LDAP.php",
+		"//web1/wwwroot/Nexus/Resources/includes/Source/ADfunctions.php",
+		"//web1/wwwroot/Nexus/Resources/ADMtools/index.php",
+		"/C/Users/aaronm/Desktop/ldap.php",
+		"/C/wamp/www/uno/test/bootstrap.php",
+		"/C/wamp/www/uno/test/Class/Page.php",
+		"/C/wamp/www/uno/test/helper.php",
+		"/C/wamp/www/uno/test-localhost-files.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"2013_2014",
+			"width",
+			"boardmembers_2012_2013",
+			"textbook",
+			"DEBUG",
+			"slidesAjaxQueue",
+			"number",
+			"slidesAjaxQueueComplete",
+			"slidesAjaxQueue",
+			"ocean",
+			"forest",
+			"this",
+			"addSlideFromUrl",
+			"privateKey",
+			"encode",
+			"decod",
+			"save",
+			"ldapbind",
+			"ldap_host",
+			"ldap_dn",
+			"ldap_domain",
+			"$buildName",
+			"666.66.66.66",
+			"volusion-container",
+			"v65-cart-checkout-parent",
+			"http:",
+			"http",
+			"1938240",
+			"return",
+			"get_ctext",
+			"cache",
+			"about",
+			"\n",
+			");*/\n",
+			"construction",
+			"prevent",
+			"get_checkbox_list",
+			"update_checkbox_state_by_name",
+			"AffiliateID",
+			"contact->",
+			"contact",
+			"get_checkbox_list",
+			"update_checkbox_state",
+			"get_checkboxes",
+			"get_mock_contact",
+			"$email",
+			"update_checkboxes",
+			" 0,",
+			"0,",
+			"false",
+			"email",
+			"label",
+			"activeSlug",
+			"activeHoverCategory",
+			"Text Book",
+			"attr",
+			"uoduckstore_com + 'p",
+			"uoduckstore_com",
+			"artschool",
+			"cl:",
+			"\\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"00.00.00.00",
+			"uoduckstore_com + '/p"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "tss.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 141.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

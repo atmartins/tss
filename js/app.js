@@ -1,11 +1,11 @@
 'use strict';
 
 /* App Module */
-angular.module('phonecat', ['phonecatFilters', 'phonecatServices']).
+angular.module('tss', ['tssFilters', 'tssServices', 'tssDirectives']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
-      when('/reports', {templateUrl: 'partials/report-list-standard.html',   controller: ReportListCtrl}).
-      when('/light', {templateUrl: 'partials/report-list-light.html', controller: ReportListCtrl}).
-      when('/reports/:reportId', {templateUrl: 'partials/report-detail.html', controller: ReportDetailCtrl}).
-      otherwise({redirectTo: '/reports'});
+      when('/template-list', {templateUrl: 'partials/template-list.html',   controller: TemplateListCtrl}).
+      when('/new/:templateId', {templateUrl: 'partials/template-new-detail.html', controller: TemplateNewDetailCtrl}).
+      when('/edit/:signId', {templateUrl: 'partials/edit-detail.html', controller: SignEditDetailCtrl}).
+      otherwise({redirectTo: '/template-list'});
 }]);
