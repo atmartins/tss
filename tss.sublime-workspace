@@ -115,6 +115,54 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "js/directives.js",
+			"settings":
+			{
+				"buffer_size": 557,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/services.js",
+			"settings":
+			{
+				"buffer_size": 692,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 562,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/controllers.js",
+			"settings":
+			{
+				"buffer_size": 1014,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partials/template-new-detail.html",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "partials/template-list.html",
+			"settings":
+			{
+				"buffer_size": 969,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -195,15 +243,30 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/tss/css/app.css",
+		"/C/wamp/www/tss/partials/list.html",
 		"/C/wamp/www/tss/js/app.js",
+		"/C/wamp/www/tss/js/services.js",
+		"/C/wamp/www/tss/partials/template-list.html",
+		"/C/wamp/www/tss/templates/templates.json",
+		"/C/wamp/www/tss/templates/1.json",
+		"/C/wamp/www/tss/index.html",
+		"/C/wamp/www/tss/templates/2.json",
 		"/C/wamp/www/tss/js/controllers.js",
+		"/C/wamp/www/tss/partials/template-new-detail.html",
+		"/C/wamp/www/tss/partials/edit-detail.html",
+		"/C/wamp/www/tss/signs/1.json",
+		"/C/Users/aaronm/Documents/GitHub/angular-phonecat/app/phones/phones.json",
+		"/C/Users/aaronm/Documents/GitHub/angular-phonecat/app/phones/motorola-xoom-with-wi-fi.json",
+		"/C/wamp/www/tss/signs/signs.json",
 		"/C/wamp/www/tss/js/directives.js",
 		"/C/wamp/www/tss/js/filters.js",
-		"/C/wamp/www/tss/js/services.js",
+		"/C/wamp/www/tss/signs/reports.json",
+		"/C/wamp/www/tss/signs/app_rmc_reports_checkboxes_state.json",
+		"/C/wamp/www/tss/signs/app_rmc_reports_comments.json",
 		"/C/wamp/www/tss/reports/app_rmc_reports_checkboxes_state.json",
 		"/C/Users/aaronm/Downloads/jquery-mobile-theme-090926-0/index.html",
 		"/C/wamp/www/tss/index-async.html",
-		"/C/wamp/www/tss/index.html",
 		"/C/wamp/www/tss/reports/1.json",
 		"/C/wamp/www/lou/getVolusionCat.html",
 		"/C/Users/aaronm/Desktop/getVolusionCat.html",
@@ -307,22 +370,7 @@
 		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-06.txt",
 		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-08.txt",
 		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-09.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-07.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-04.txt",
-		"/C/Users/aaronm/Desktop/Ldap.php",
-		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/ldap.php",
-		"/C/Users/aaronm/Desktop/ldap2.php",
-		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/Ldap 2.php",
-		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/error.log",
-		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/ldap2.php",
-		"/C/Users/aaronm/Desktop/LDAP.php",
-		"//web1/wwwroot/Nexus/Resources/includes/Source/ADfunctions.php",
-		"//web1/wwwroot/Nexus/Resources/ADMtools/index.php",
-		"/C/Users/aaronm/Desktop/ldap.php",
-		"/C/wamp/www/uno/test/bootstrap.php",
-		"/C/wamp/www/uno/test/Class/Page.php",
-		"/C/wamp/www/uno/test/helper.php",
-		"/C/wamp/www/uno/test-localhost-files.php"
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-07.txt"
 	],
 	"find":
 	{
@@ -421,8 +469,175 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "js/directives.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 557,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								557,
+								557
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								620
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 50.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 562,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								178,
+								178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "partials/template-new-detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								238,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "partials/template-list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								38,
+								38
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
