@@ -20,15 +20,17 @@ angular.module('tssDirectives', ['ngResource'])
     	    element.addClass('active');
     	})
     }
-  })/*.directive('switchtemplate', function() {    
-    return function(scope, element, attrs){
-    	element.bind("click",function(){
-    		scope.$apply(function () {
-	            scope.setTemplate(attrs.templateid);
-	            console.log('switching to ' + attrs.templateid);
-    	    });
-    	    element.parent().parent().children().removeClass("active");
-    	    element.parent().addClass('active');
-    	})
+  }).directive('switchtemplate', function() {
+  	//Creates
+    return {
+    	restrict:"E",
+    	scope:{
+    		dial:"&", //using parent scope, invoke the function specified as a parameter in our view (setTemplate(template))
+    		thistemplate:"=" //gets an object from the attribute in our view
+    	},
+    	template:'<div ng-click="dial()">Click here {{thistemplate.name}}, {{thistemplate.id}}</div>'/*,
+    	link: function(scope, element, attrs){
+    		scope.name = attrs.thistemplate;
+    	}*/
     }
-  })*/;
+  });

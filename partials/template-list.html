@@ -3,9 +3,9 @@
     <h4>
     Your currently selected
     <br />Theme: {{theme}}
-    <br />Layout: {{activeTemplate}}
+    <br />Layout: {{template.name}}
     </h4>
-    <!-- <img src="{{template.thumbnail}}" /> -->
+    <img src="{{template.thumbnail}}" />
     
   </div>
 
@@ -34,7 +34,9 @@
    
       <ul class="templates">
         <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
-            
+         <!-- <div ng-click="passtemplate(template)">Click me to log this template</div> -->
+          <switchtemplate dial="setTemplate(template)" thistemplate="template"></switchtemplate>  
+            <!--
             <img src="{{template.thumbnail}}" />
             <div>Name: {{template.name}}</div>
             <div>Description: {{template.description}}</div>
@@ -44,6 +46,8 @@
           <a href="#/new/{{template.id}}" class="list-item">
           GO >>
           </a>      
+          -->
+
         </li>
       </ul>
   </div><!-- /#template-choice -->

@@ -7,16 +7,15 @@ function TemplateListCtrl($scope, Template, RunTime) {
   $scope.orderProp = 'size';
 
   //$scope.template = $scope.template || {};
+  $scope.mytemplate = 'hi';
   
   $scope.setTheme = function(_theme) {
     $scope.theme = RunTime.theme = _theme;    
   }
 
-  $scope.setTemplate = function() {
-     
-     $scope.template = RunTime.template = Template.get({templateId: _templateId}, function(template) {
-      
-    });  
+  /* Set the template object to this scope and our runtime service */
+  $scope.setTemplate = function(template) {
+     $scope.template = RunTime.template = template;
   }
   
   $scope.getTemplate = function(_templateId){
