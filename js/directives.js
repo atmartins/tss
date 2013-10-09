@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 angular.module('tssDirectives', ['ngResource'])
   .directive('superman', function() {    
     return function(scope, element){
@@ -8,14 +8,27 @@ angular.module('tssDirectives', ['ngResource'])
     	})
     }
   });
-
+*/
 angular.module('tssDirectives', ['ngResource'])
   .directive('switchtheme', function() {    
     return function(scope, element, attrs){
     	element.bind("click",function(){
     		scope.$apply(function () {
-	            scope.setMyTheme(attrs.theme);
+	            scope.setTheme(attrs.theme);
     	    });
+    	    element.parent().children().removeClass("active");
+    	    element.addClass('active');
     	})
     }
-  });
+  })/*.directive('switchtemplate', function() {    
+    return function(scope, element, attrs){
+    	element.bind("click",function(){
+    		scope.$apply(function () {
+	            scope.setTemplate(attrs.templateid);
+	            console.log('switching to ' + attrs.templateid);
+    	    });
+    	    element.parent().parent().children().removeClass("active");
+    	    element.parent().addClass('active');
+    	})
+    }
+  })*/;

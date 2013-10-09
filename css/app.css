@@ -9,7 +9,21 @@ body {
     padding: 20px;
 }
 
+#template-list #theme-choice .active {
+  font-weight:bold;
+}
+#template-list #template-choice .active {
+    border: 1px solid green;
+}
 
+#hud {
+  position: fixed;
+  top:100px;
+  right:10px;
+  background:white;
+  box-shadow: 0 0 10px #aaa;
+  padding: 15px;
+}
 /* Template or Sign list views */
 a.list-item {
     display: block;
@@ -21,8 +35,11 @@ a.list-item {
 .list {
   border:1px solid #ccc;
   list-style: none;
-  padding: 0;
+  padding: 20px;
   margin: 10px;
+  width: 260px;
+  height: 260px;
+  display: inline-block;
 }
 .list img {float:right;box-shadow: 1px 1px 10px #ccc;}
 

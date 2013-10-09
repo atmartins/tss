@@ -2,38 +2,37 @@
 
 /* Controllers */
 
-function TemplateListCtrl($scope, Template, SharedService) {
+function TemplateListCtrl($scope, Template, RunTime) {
   $scope.templates = Template.query();
   $scope.orderProp = 'size';
-  $scope.thingy = SharedService.thingy
-}
- 
 
-function TemplateNewDetailCtrl($scope, $routeParams, Template) {
+  //$scope.template = $scope.template || {};
+  
+  $scope.setTheme = function(_theme) {
+    $scope.theme = RunTime.theme = _theme;    
+  }
+
+  $scope.setTemplate = function() {
+     
+     $scope.template = RunTime.template = Template.get({templateId: _templateId}, function(template) {
+      
+    });  
+  }
+  
+  $scope.getTemplate = function(_templateId){
+    
+  }
+}
+
+function TemplateNewDetailCtrl($scope, $routeParams, Template, RunTime) {
   $scope.template = Template.get({templateId: $routeParams.templateId}, function(template) {
-   // $scope.mainImageUrl = template.images[0];
-    //$scope.editFields = 'hi edit fields'+template.name;
-    $scope.template.theme = 'DD';
+    $scope.theme = RunTime.theme; //assign theme based on user choice (user choice stored in RunTime service)
+    $scope.template = RunTime.template;
   });
-  
-  $scope.setMyTheme = function(_theme) {
-    $scope.template.theme = _theme;
-  }
-  
-  $scope.setImage = function(imageUrl) {
-    $scope.mainImageUrl = imageUrl;
-  }
 }
-
 
 function SignEditDetailCtrl($scope, $routeParams, Sign) {
   $scope.sign = Sign.get({signId: $routeParams.signId}, function(sign) {
     //$scope.mainImageUrl = sign.images[0];
   });
-
-  $scope.setImage = function(imageUrl) {
-    $scope.mainImageUrl = imageUrl;
-  }
 }
-
-//PhoneDetailCtrl.$inject = ['$scope', '$routeParams', 'Phone'];

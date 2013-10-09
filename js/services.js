@@ -20,8 +20,11 @@ angular.module('tssServices', ['ngResource']).
 
 
 angular.module('tssServices').
-  factory('SharedService', function(){
+  factory('RunTime', function(){
     return {
-    	thingy:'hi shared services'
+      template : {
+        theme:'', //default
+        layout: '' //default  
+      }
     };
 });

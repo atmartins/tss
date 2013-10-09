@@ -1,32 +1,56 @@
-    <h2>Create</h2>
-    Theme:{{thingy}}
-    <div class="sidebar">
+<div id="template-list">
+  <div id="hud">   
+    <h4>
+    Your currently selected
+    <br />Theme: {{theme}}
+    <br />Layout: {{activeTemplate}}
+    </h4>
+    <!-- <img src="{{template.thumbnail}}" /> -->
+    
+  </div>
+
+  <h2>Create a Sign</h2>
+    
+
+
+  <div id="theme-choice">
+    <h3>1. Choose a theme:</h3>
+    <div>
+      <div switchtheme theme="DD">DD theme</div>
+      <div switchtheme theme="CD">CD theme</div>
+      <div switchtheme theme="DS">DS theme</div>
+      <div switchtheme theme="LD">LD theme</div>
+      <div switchtheme theme="SD">SD theme</div>
+    </div>
+  </div><!-- /#theme-choice -->
+  <div id="template-choice">
+    <h3>2. Choose a Template:</h3>
       Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
-      <br />
       Sort list by:
       <select ng-model="orderProp">
         <option value="size">Size</option>
         <option value="id">ID</option>
       </select>
-    </div>
-
-    <h3>Choose a Template:</h3>
-    <div class="span10">
-      <!--Body content-->
+   
       <ul class="templates">
         <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
-          
-          
-            <div switchtheme theme="DD">DD theme</div>
+            
             <img src="{{template.thumbnail}}" />
             <div>Name: {{template.name}}</div>
             <div>Description: {{template.description}}</div>
             <div>{{template.id}}</div>
+            Not working, directive compiled before this happens
+            <div switchtemplate templateid="{{template.id}}">Choose {{template.name}}</div>
           <a href="#/new/{{template.id}}" class="list-item">
           GO >>
-          </a>
-          
+          </a>      
         </li>
       </ul>
-
+  </div><!-- /#template-choice -->
+    <div id="add-text">
+    <h3>3. Add text:</h3>
+    <div>
+      text fields
     </div>
+  </div>
+</div><!-- /#template-list -->

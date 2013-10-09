@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"array_push",
+				"array_push"
+			],
+			[
+				"er",
+				"er_initial_count"
+			],
+			[
+				"db",
+				"db_initial_count"
+			],
+			[
 				"queue",
 				"queueComplete"
 			],
@@ -243,6 +255,9 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/lou/mocup/from_eric.csv",
+		"/C/wamp/www/lou/mocup/index.php",
+		"/C/Users/aaronm/Desktop/mail order catalog update/from_eric.csv",
 		"/C/wamp/www/tss/css/app.css",
 		"/C/wamp/www/tss/partials/list.html",
 		"/C/wamp/www/tss/js/app.js",
@@ -367,10 +382,7 @@
 		"/C/wamp/www/rmc2/js.html",
 		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-05.txt",
 		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-03.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-06.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-08.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-09.txt",
-		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-07.txt"
+		"/C/Users/aaronm/Desktop/rackspace uoduckstore local/public_html/keepintouch/log/prefc_class_Listrak_2013-09-06.txt"
 	],
 	"find":
 	{
