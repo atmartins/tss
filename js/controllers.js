@@ -7,8 +7,10 @@ function TemplateListCtrl($scope, Template, RunTime) {
   $scope.templateOrder = 'id'; //default order of templates
   $scope.theme = 'none'; //initially
   $scope.show = {
-    hud:false,
-    step2:false
+    //set to false during production.
+    //TODO add the other steps
+    hud:true,
+    step2:true
   };
   
   //Let this scope and the shared scope know which theme was selected
@@ -22,7 +24,7 @@ function TemplateListCtrl($scope, Template, RunTime) {
 
   $scope.templateFields = {};
 
-  //Let this scope and the shared scope know which template was selected
+  //Let this scope and the shared scope know whichs template was selected
   //by user.
   $scope.setTemplate = function(template) {
     $scope.template = RunTime.template = template;
@@ -45,7 +47,21 @@ function TemplateListCtrl($scope, Template, RunTime) {
   }
 
   $scope.print = function(){
-    window.print()
+    console.log('Printing');
+    var purl = '/print.php'
+    + '?template=' + $scope.template.slug
+    + '&theme=' + $scope.theme;
+    for(var i = 0; i < $scope.fullTemplate.fields.length; i++){
+      purl += '&'
+      + $scope.fullTemplate.fields[i].id
+      + '='
+      + $scope.fullTemplate.fields[i].value;
+    }
+    console.log(encodeURI(purl)); //TODO build /print.php which takes all this stuff and builds out a print template
+    //Bonus points, this url will be book-markable
+
+    //Make a print button on that page with this:
+    //window.print()
   }
 }
 

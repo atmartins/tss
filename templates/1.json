@@ -10,20 +10,26 @@
         {
             "type": "text",
             "class":"heading",
-            "id":"",
+            "id":"heading",
             "value":"Product Name"                        
         },
         {
             "type": "text",
             "class":"description",
-            "id":"",
+            "id":"description",
             "value":"Product description if needed"
         },
     	{
             "type": "currency",
             "class":"price",
-            "id":"",
+            "id":"description",
             "value":"0.00"
+        },
+        {
+            "type": "text",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Product disclaimer if needed"
         }
     ]
 }

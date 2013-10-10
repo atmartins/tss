@@ -2,6 +2,7 @@
 ul {margin:0;padding:0;}
 body {
   padding-top: 20px;
+  
 }
 
 
@@ -91,7 +92,7 @@ a.list-item {
 
 
 /* Review Template Layouts (no color) */
-.hud-thumbnail {position:relative;}
+.hud-thumbnail {position:relative;font-family: 'Open Sans', sans-serif;}
 .hud-thumbnail div {position:absolute;}
 .hud-thumbnail img {box-shadow: 1px 1px 5px #aaa;}
 .field {width: 100%;}
@@ -108,14 +109,21 @@ a.list-item {
   font-size: 18px;
   top: 6px;
   line-height: 15px;
+  font-weight: bold;
 }
 .hud-thumbnail.template-8511a .description {
   font-size:5px;
   top:32px;
   width:85px;
+  font-style: italic;
 }
 .hud-thumbnail.template-8511a .price {
   top: 51px;
+}
+.hud-thumbnail.template-8511a .disclaimer {
+  top: 80px;
+  left: 23px;
+  font-size:2px;
 }
 .hud-thumbnail.template-8511a .dollar-sign {
     font-size: 15px;
@@ -133,3 +141,6 @@ a.list-item {
     font-size: 18px;
     vertical-align: top;
 }
+
+#review.template-8511a {width:850px;height:1100px;box-shadow:1px 1px 10px #ccc;}
+#review.template-8511a .description {font-weight:bold;}
