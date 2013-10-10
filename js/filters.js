@@ -29,4 +29,13 @@ angular.module('tssFilters', [])
     t += '<span class="cents-amt">' + parts[1] + '</span>'
     return t;
   };
+})
+.filter('disclaimer', function() {
+  //If there is text, add an asterik.
+  return function(input) {
+  	if(input){
+  		return "*" + input;
+  	}
+    return input;
+  };
 });

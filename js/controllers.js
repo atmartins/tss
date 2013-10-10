@@ -41,9 +41,15 @@ function TemplateListCtrl($scope, Template, RunTime) {
   $scope.isText = function(field){
     return (field.type === "text");
   }
-
+  $scope.isDisclaimer = function(field){
+    return (field.type === "disclaimer");
+  }
   $scope.thumbnailSrc = function(){
     return '/img/' + $scope.template.slug + '/thumbnail/' + $scope.theme + '.png';
+  }
+  
+  $scope.mediumSrc = function(){
+    return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png';
   }
 
   $scope.print = function(){

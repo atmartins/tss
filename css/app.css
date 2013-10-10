@@ -33,7 +33,7 @@ body {
  */
 #hud {
   position: fixed;
-  top:100px;
+  top: 20px;
   right: 0px;
   background:white;
   box-shadow: 0 0 10px #aaa;
@@ -57,6 +57,9 @@ body {
  2. Choose a Template
  Template or Sign list views
  */
+#template-choice {
+    width: 820px;
+}
 #template-list #theme-choice .active {
   font-weight:bold;
   text-decoration: underline;
@@ -95,7 +98,7 @@ a.list-item {
 .hud-thumbnail {position:relative;font-family: 'Open Sans', sans-serif;}
 .hud-thumbnail div {position:absolute;}
 .hud-thumbnail img {box-shadow: 1px 1px 5px #aaa;}
-.field {width: 100%;}
+.field {width: 95%;}
 .heading {text-align:center;width: 100%;}
 .description{text-align:center;width:100%;}
 .price{text-align:center;width:100%;}
@@ -104,12 +107,19 @@ a.list-item {
 .hud-thumbnail.template-8511a {
     height: 110px;
     width: 85px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.template-8511a .heading {
+  font-weight:bold;
+  font-size: 165px;
+  line-height: 157px;
+  top: 51px;
+  letter-spacing: -4px;
 }
 .hud-thumbnail.template-8511a .heading {
-  font-size: 18px;
-  top: 6px;
-  line-height: 15px;
-  font-weight: bold;
+  font-size: inherit;
+  
 }
 .hud-thumbnail.template-8511a .description {
   font-size:5px;
@@ -142,5 +152,48 @@ a.list-item {
     vertical-align: top;
 }
 
-#review.template-8511a {width:850px;height:1100px;box-shadow:1px 1px 10px #ccc;}
-#review.template-8511a .description {font-weight:bold;}
+#review {font-family: 'Open Sans', sans-serif;position: relative  ;}
+#review div {position:absolute;}
+#review.template-8511a {width: 850px;height:1100px;box-shadow:1px 1px 10px #ccc;overflow: hidden;}
+
+#review.template-8511a .description {
+  font-size: 56px;
+  font-style:italic;
+  font-weight:bold;
+  letter-spacing: -3px;
+  line-height: 60px;
+  top: 380px;
+}
+#review.template-8511a .price {
+  font-size: 200px;
+  font-weight:bold;
+  letter-spacing: 2px;
+  line-height: 60px;
+  top: 550px;
+}
+#review.template-8511a .price .dollar-sign {
+  vertical-align: top;
+}
+#review.template-8511a .price .dollar-amt {
+  font-size:360px;
+  line-height:200px;
+}
+#review.template-8511a .price .decimal {
+  display:none;
+}
+#review.template-8511a .price .cents-amt {
+  vertical-align: top;
+}
+#review.template-8511a .disclaimer {
+  top: 884px;
+  left: 250px;
+  font-style: italic;
+  color: black;
+}
+#review {
+  -webkit-transform: scale(0.2);
+  -moz-transform: scale(0.2);
+  -o-transform: scale(0.2);
+  -ms-transform: scale(0.2);
+}
+  

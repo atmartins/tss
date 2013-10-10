@@ -26,7 +26,7 @@
             "value":"0.00"
         },
         {
-            "type": "text",
+            "type": "disclaimer",
             "class":"disclaimer",
             "id":"disclaimer",
             "value":"Product disclaimer if needed"
