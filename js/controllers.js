@@ -4,24 +4,34 @@
 
 function TemplateListCtrl($scope, Template, RunTime) {
   $scope.templates = Template.query();
-  $scope.orderProp = 'size';
+  $scope.templateOrder = 'id'; //default order of templates
 
-  //$scope.template = $scope.template || {};
-  $scope.mytemplate = 'hi';
-  
+  //Let this scope and the shared scope know which theme was selected
+  //by user.
   $scope.setTheme = function(_theme) {
     $scope.theme = RunTime.theme = _theme;    
   }
 
-  /* Set the template object to this scope and our runtime service */
+  $scope.templateFields = {};
+
+  //Let this scope and the shared scope know which template was selected
+  //by user.
   $scope.setTemplate = function(template) {
-     $scope.template = RunTime.template = template;
-  }
-  
-  $scope.getTemplate = function(_templateId){
-    
+    $scope.template = RunTime.template = template;
+    //console.log(template);
+    $scope.fullTemplate = Template.get({templateId: template.id}, function(template) {
+        //$scope.templateFields = $scope.fullTemplate.fields;
+    });
   }
 }
+
+
+
+
+
+
+
+
 
 function TemplateNewDetailCtrl($scope, $routeParams, Template, RunTime) {
   $scope.template = Template.get({templateId: $routeParams.templateId}, function(template) {

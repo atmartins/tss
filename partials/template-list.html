@@ -3,7 +3,12 @@
     <h4>
     Your currently selected
     <br />Theme: {{theme}}
-    <br />Layout: {{template.name}}
+    <br />Layout: {{fullTemplate.name}}
+         <ul>
+          <li ng-repeat="field in fullTemplate.fields" class="field">      
+          {{field.class}}
+        </li>
+      </ul>
     </h4>
     <img src="{{template.thumbnail}}" />
     
@@ -11,8 +16,6 @@
 
   <h2>Create a Sign</h2>
     
-
-
   <div id="theme-choice">
     <h3>1. Choose a theme:</h3>
     <div>
@@ -33,28 +36,28 @@
       </select>
    
       <ul class="templates">
-        <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="template list">
-         <!-- <div ng-click="passtemplate(template)">Click me to log this template</div> -->
-          <switchtemplate dial="setTemplate(template)" thistemplate="template"></switchtemplate>  
-            <!--
-            <img src="{{template.thumbnail}}" />
-            <div>Name: {{template.name}}</div>
-            <div>Description: {{template.description}}</div>
-            <div>{{template.id}}</div>
-            Not working, directive compiled before this happens
-            <div switchtemplate templateid="{{template.id}}">Choose {{template.name}}</div>
-          <a href="#/new/{{template.id}}" class="list-item">
-          GO >>
-          </a>      
-          -->
-
+        <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="template list">
+          <div switchtemplate dial="setTemplate(template)" thistemplate="template"></div>
         </li>
       </ul>
   </div><!-- /#template-choice -->
-    <div id="add-text">
+  <div id="add-text">
     <h3>3. Add text:</h3>
     <div>
-      text fields
+      <ul>
+        <li ng-repeat="field in fullTemplate.fields" class="field">
+        <!-- need to map fields to fullTemplate model -->
+         <input type="text" ng-model="field.class" placeholder="">
+          
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div id="print">
+    <h3>4. Print</h3>
+    <div class="btn">Print</div>
+    <div>
+      Print help >>
     </div>
   </div>
 </div><!-- /#template-list -->

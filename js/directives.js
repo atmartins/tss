@@ -21,14 +21,16 @@ angular.module('tssDirectives', ['ngResource'])
     	})
     }
   }).directive('switchtemplate', function() {
-  	//Creates
     return {
-    	restrict:"E",
+    	restrict:"A",
     	scope:{
     		dial:"&", //using parent scope, invoke the function specified as a parameter in our view (setTemplate(template))
     		thistemplate:"=" //gets an object from the attribute in our view
     	},
-    	template:'<div ng-click="dial()">Click here {{thistemplate.name}}, {{thistemplate.id}}</div>'/*,
+    	template:'<div class="switchtemplate" ng-click="dial()">{{thistemplate.name}}'
+    	+'{{thistemplate.id}}'
+    	+'<img src="{{thistemplate.thumbnail}}" />'
+    	+'</div>'/*,
     	link: function(scope, element, attrs){
     		scope.name = attrs.thistemplate;
     	}*/

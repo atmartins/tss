@@ -22,9 +22,7 @@ angular.module('tssServices', ['ngResource']).
 angular.module('tssServices').
   factory('RunTime', function(){
     return {
-      template : {
-        theme:'', //default
-        layout: '' //default  
-      }
+        theme:'', //theme slug, such as SD
+        template: '' //template id, such as for 8.5x11 template
     };
 });

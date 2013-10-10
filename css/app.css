@@ -15,6 +15,13 @@ body {
 #template-list #template-choice .active {
     border: 1px solid green;
 }
+#template-list #template-choice .switchtemplate {
+    display: block;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    padding: 20px;
+}
 
 #hud {
   position: fixed;
@@ -35,10 +42,7 @@ a.list-item {
 .list {
   border:1px solid #ccc;
   list-style: none;
-  padding: 20px;
   margin: 10px;
-  width: 260px;
-  height: 260px;
   display: inline-block;
 }
 .list img {float:right;box-shadow: 1px 1px 10px #ccc;}

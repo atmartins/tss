@@ -5,10 +5,24 @@
         "width":8.5,
         "height":11,
         "theme": "",
-        "fields":{
-        	"price":"0.00",
-        	"productName":"Product Name",
-        	"productDescription":"Product description",
-        	"disclaimer":"Disclaimer if needed"
-        }
+        "fields": [
+                {
+                        "type": "text",
+                        "class":"heading",
+                        "id":"",
+                        "value":"Product Name"                        
+                },
+                {
+                        "type": "text",
+                        "class":"description",
+                        "id":"",
+                        "value":"Product description if needed"
+                },
+        	{
+                        "type": "text",
+                        "class":"price",
+                        "id":"",
+                        "value":"0.00"
+                }
+        ]
 }
