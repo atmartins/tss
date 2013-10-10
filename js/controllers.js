@@ -5,6 +5,7 @@
 function TemplateListCtrl($scope, Template, RunTime) {
   $scope.templates = Template.query();
   $scope.templateOrder = 'id'; //default order of templates
+  $scope.theme = 'none'; //initially
 
   //Let this scope and the shared scope know which theme was selected
   //by user.
@@ -29,6 +30,14 @@ function TemplateListCtrl($scope, Template, RunTime) {
   }
   $scope.isText = function(field){
     return (field.type === "text");
+  }
+
+  $scope.thumbnailSrc = function(){
+    return '/img/' + $scope.template.slug + '/thumbnail/' + $scope.theme + '.png';
+  }
+
+  $scope.print = function(){
+    window.print()
   }
 }
 

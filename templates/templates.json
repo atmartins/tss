@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "slug":"8511a",
         "name":"8.5x11",
         "description": "8.5 in. by 11 in. with name, description and price.",
         "keywords": "name, description, price, portrait, up, tall, vertical",
@@ -9,6 +10,7 @@
         "thumbnail":"/img/layout/8511a_thumbnail.png"
     },{
         "id": 2,
+        "slug":"117a",
         "name":"11x7",
         "description": "11 in. by 7 in. with name and description.",
         "keywords": "name, description, landscape, sideways, horizontal",

@@ -25,22 +25,5 @@
             "id":"",
             "value":"0.00"
         }
-    ],
-    "designelements": [
-        {
-            "type": "div",
-            "class":"color-block",
-            "id":"block-a"
-        },
-        {
-            "type": "div",
-            "class":"color-block",
-            "id":"block-b"
-        },
-        {
-            "type": "div",
-            "class":"logo",
-            "id":"logo"
-        }
     ]
 }

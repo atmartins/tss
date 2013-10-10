@@ -26,11 +26,13 @@ body {
 #hud {
   position: fixed;
   top:100px;
-  right:10px;
+  right: 0px;
   background:white;
   box-shadow: 0 0 10px #aaa;
-  padding: 15px;
+  padding: 15px 30px 15px 15px;
+  width: 290px;
 }
+
 /* Template or Sign list views */
 a.list-item {
     display: block;
@@ -46,6 +48,9 @@ a.list-item {
   display: inline-block;
 }
 .list img {float:right;box-shadow: 1px 1px 10px #ccc;}
+
+
+
 
 .theme-CD {
   color:#ac281b;
@@ -63,38 +68,47 @@ a.list-item {
   color:#f4a236; /*mustard*/
 }
 
-/* Color block is a reusable class (any layout can use it to pick up the appropriate color) */
-.color-block {
-  background:#ccc; /* default */  
-}
-.CD .color-block {
-  background:#ac281b;
-}
-.DD .color-block {
-  background:#763e7b;
-}
-.SD .color-block {
-  background:#89c33b;
-}
-.LD .color-block {
-  background:#3cb0e3;
-}
-.DS .color-block {
-  background:#f4a236; /*mustard*/
-}
 
 /* Review Template Layouts (no color) */
-#review.template-8511a #block-a {
-  height:20px;
-  width:100px;
+.hud-thumbnail {position:relative;}
+.hud-thumbnail div {position:absolute;}
+.hud-thumbnail img {box-shadow: 1px 1px 5px #aaa;}
+.field {width: 100%;}
+.heading {text-align:center;}
+.description{text-align:center;}
+.price{width:100%;text-align:center;}
+
+/* 8511a */
+.hud-thumbnail.template-8511a {
+    height: 110px;
+    width: 85px;
 }
-#review.template-8511a #block-b {
-  height:30px;
-  width:40px;
-  margin:10px;
+.hud-thumbnail.template-8511a .heading {
+  font-size: 18px;
+  top: 6px;
+  line-height: 15px;
 }
-#review.template-8511a #logo {
-  height:40px;
-  width:40px;
-  background:grey;
+.hud-thumbnail.template-8511a .description {
+  font-size:5px;
+  top:32px;
+  width:85px;
+}
+.hud-thumbnail.template-8511a .price {
+  top: 51px;
+}
+.hud-thumbnail.template-8511a .dollar-sign {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    vertical-align: top;
+}
+.hud-thumbnail.template-8511a .dollar-amt {
+    font-size: 32px;
+    line-height: 30px;
+}
+.hud-thumbnail.template-8511a .decimal {
+    display: none;
+}
+.hud-thumbnail.template-8511a .cents-amt {
+    font-size: 18px;
+    vertical-align: top;
 }
