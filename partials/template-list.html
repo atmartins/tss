@@ -5,8 +5,8 @@
     <br />Layout: {{fullTemplate.name}}   
         
         <div ng-repeat="field in fullTemplate.fields" class="field">      
-            <!-- <div ng-if="isNothing(field)">{{field.value}}</div> -->
-           <!-- <div ng-if="isCurrency(field)">{{field.value | currency:"$"}}</div> -->
+            <div ng-if="isHeading(field)">{{field.value}}</div>
+           <div ng-if="isCurrency(field)">{{field.value | currency:"$"}}</div>
         </div>
 
 
