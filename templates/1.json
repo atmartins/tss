@@ -1,6 +1,7 @@
  {
     "id": "1",
-    "name":"8x11",
+    "slug":"8511a",
+    "name":"8.5 x 11",
     "description": "8.5x11 inch sign. Use for products and general information.",
     "width":"8.5",
     "height":"11",
@@ -23,6 +24,23 @@
             "class":"price",
             "id":"",
             "value":"0.00"
+        }
+    ],
+    "designelements": [
+        {
+            "type": "div",
+            "class":"color-block",
+            "id":"block-a"
+        },
+        {
+            "type": "div",
+            "class":"color-block",
+            "id":"block-b"
+        },
+        {
+            "type": "div",
+            "class":"logo",
+            "id":"logo"
         }
     ]
 }

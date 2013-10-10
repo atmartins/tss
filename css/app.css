@@ -62,3 +62,39 @@ a.list-item {
 .theme-DS {
   color:#f4a236; /*mustard*/
 }
+
+/* Color block is a reusable class (any layout can use it to pick up the appropriate color) */
+.color-block {
+  background:#ccc; /* default */  
+}
+.CD .color-block {
+  background:#ac281b;
+}
+.DD .color-block {
+  background:#763e7b;
+}
+.SD .color-block {
+  background:#89c33b;
+}
+.LD .color-block {
+  background:#3cb0e3;
+}
+.DS .color-block {
+  background:#f4a236; /*mustard*/
+}
+
+/* Review Template Layouts (no color) */
+#review.template-8511a #block-a {
+  height:20px;
+  width:100px;
+}
+#review.template-8511a #block-b {
+  height:30px;
+  width:40px;
+  margin:10px;
+}
+#review.template-8511a #logo {
+  height:40px;
+  width:40px;
+  background:grey;
+}

@@ -8,7 +8,7 @@
           <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
           <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
         </div>
-
+        
     <img src="{{template.thumbnail}}" />
   </div>
 
@@ -50,8 +50,22 @@
       </ul>
     </div>
   </div>
+
+  <h3>4. Review</h3>
+
+  <div id="review" class="template-{{fullTemplate.slug}} {{theme}}">
+          <div ng-repeat="field in fullTemplate.fields" class="field">      
+            <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+            <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
+          </div>
+   
+        <div ng-repeat="element in fullTemplate.designelements" class="de">
+            <div class="{{element.class}}" id="{{element.id}}"></div>
+        </div>    
+  </div>
+
   <div id="print">
-    <h3>4. Print</h3>
+    <h3>5. Print</h3>
     <div class="btn">Print</div>
     <div>
       Print help >>
