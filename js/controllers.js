@@ -23,9 +23,14 @@ function TemplateListCtrl($scope, Template, RunTime) {
         //$scope.templateFields = $scope.fullTemplate.fields;
     });
   }
+
+  $scope.isCurrency = function(field){
+    return (field.type === "currency");
+  }
+  $scope.isHeading = function(field){
+    return (field.type === "heading");
+  }
 }
-
-
 
 
 

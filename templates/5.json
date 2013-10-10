@@ -1,0 +1,22 @@
+ {
+    "id": "5",
+    "name":"3.5 x 5.25",
+    "description": "3.5 by 5.25 inch vertical product sign.",
+    "width":"3.5",
+    "height":"5.25",
+    "theme": "",
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"",
+            "value":"Product Name"
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"",
+            "value":"Product description if needed"
+        }
+    ]
+}

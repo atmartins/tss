@@ -1,15 +1,16 @@
 <div id="template-list">
   <div id="hud">   
-    <h4>
-    Your currently selected
+    <h4>Your currently selected</h4>
     <br />Theme: {{theme}}
-    <br />Layout: {{fullTemplate.name}}
-         <ul>
-          <li ng-repeat="field in fullTemplate.fields" class="field">      
-          {{field.class}}
-        </li>
-      </ul>
-    </h4>
+    <br />Layout: {{fullTemplate.name}}   
+        
+        <div ng-repeat="field in fullTemplate.fields" class="field">      
+            <!-- <div ng-if="isNothing(field)">{{field.value}}</div> -->
+           <!-- <div ng-if="isCurrency(field)">{{field.value | currency:"$"}}</div> -->
+        </div>
+
+
+    
     <img src="{{template.thumbnail}}" />
     
   </div>
@@ -47,8 +48,7 @@
       <ul>
         <li ng-repeat="field in fullTemplate.fields" class="field">
         <!-- need to map fields to fullTemplate model -->
-         <input type="text" ng-model="field.class" placeholder="">
-          
+         <input type="text" ng-model="field.value" placeholder="">
         </li>
       </ul>
     </div>
