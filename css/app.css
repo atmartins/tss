@@ -9,48 +9,6 @@ body {
     padding: 20px;
 }
 
-#template-list #theme-choice .active {
-  font-weight:bold;
-}
-#template-list #template-choice .active {
-    border: 1px solid green;
-}
-#template-list #template-choice .switchtemplate {
-    display: block;
-    height: 200px;
-    width: 200px;
-    cursor: pointer;
-    padding: 20px;
-}
-
-#hud {
-  position: fixed;
-  top:100px;
-  right: 0px;
-  background:white;
-  box-shadow: 0 0 10px #aaa;
-  padding: 15px 30px 15px 15px;
-  width: 290px;
-}
-
-/* Template or Sign list views */
-a.list-item {
-    display: block;
-    padding: 10px;
-    clear:both;
-    min-height: 100px;
-}
-
-.list {
-  border:1px solid #ccc;
-  list-style: none;
-  margin: 10px;
-  display: inline-block;
-}
-.list img {float:right;box-shadow: 1px 1px 10px #ccc;}
-
-
-
 
 .theme-CD {
   color:#ac281b;
@@ -69,14 +27,77 @@ a.list-item {
 }
 
 
+/*
+ HUD
+ */
+#hud {
+  position: fixed;
+  top:100px;
+  right: 0px;
+  background:white;
+  box-shadow: 0 0 10px #aaa;
+  padding: 15px 30px 15px 15px;
+  width: 290px;
+}
+
+/*
+ 1. Choose a theme
+ */
+#theme-choice li {
+    list-style: none;
+    display: inline;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+/*
+ 2. Choose a Template
+ Template or Sign list views
+ */
+#template-list #theme-choice .active {
+  font-weight:bold;
+  text-decoration: underline;
+}
+#template-list #template-choice .active {
+    border: 1px solid green;
+}
+#template-list #template-choice .switchtemplate {
+    display: block;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    padding: 20px;
+}
+a.list-item {
+    display: block;
+    padding: 10px;
+    clear:both;
+    min-height: 100px;
+}
+
+.list {
+  border:1px solid #ccc;
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+.list img {float:right;box-shadow: 1px 1px 10px #ccc;}
+
+
+
+
+
+
 /* Review Template Layouts (no color) */
 .hud-thumbnail {position:relative;}
 .hud-thumbnail div {position:absolute;}
 .hud-thumbnail img {box-shadow: 1px 1px 5px #aaa;}
 .field {width: 100%;}
-.heading {text-align:center;}
-.description{text-align:center;}
-.price{width:100%;text-align:center;}
+.heading {text-align:center;width: 100%;}
+.description{text-align:center;width:100%;}
+.price{text-align:center;width:100%;}
 
 /* 8511a */
 .hud-thumbnail.template-8511a {

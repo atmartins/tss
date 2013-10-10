@@ -19,6 +19,7 @@
         "thumbnail":"/img/layout/117a_thumbnail.png"
     },{
         "id": 3,
+        "slug":"117b",
         "name":"11x7 Cut",
         "description": "11 in. by 7 in. with name, description and a dashed line to trim at.",
         "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line",
@@ -27,6 +28,7 @@
         "thumbnail":"/img/layout/117b_thumbnail.png"
     },{
         "id": 4,
+        "slug":"57a",
         "name":"5x7",
         "description": "5 in. by 7 in. with name, description and price.",
         "keywords": "name, description, price, portrait, up, tall, vertical",
@@ -35,6 +37,7 @@
         "thumbnail":"/img/layout/57a_thumbnail.png"
     },{
         "id": 5,
+        "slug":"35525a",
         "name":"3.5x5.25",
         "description": "3.5 in. by 5.25 in. with name and description",
         "keywords": "name, description, portrait, up, tall, vertical",
@@ -43,6 +46,7 @@
         "thumbnail":"/img/layout/35525a_thumbnail.png"
     },{
         "id": 6,
+        "slug":"35525b",
         "name":"5.25x3.5",
         "description": "5.25 in. by 3.5 in. with name and price",
         "keywords": "name, landscape, sideways, horizontal",

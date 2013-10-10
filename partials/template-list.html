@@ -1,38 +1,41 @@
 <div id="template-list">
-  <div id="hud">   
-    <h4>Your currently selected</h4>
+  <div id="hud" ng-show="show.hud">   
+    <h4>Preview</h4>
+    <!--
     <br />Theme: {{theme}}
     <br />Layout: {{fullTemplate.name}}   
-        <div class="hud-thumbnail theme-{{theme}} template-{{fullTemplate.slug}}">
-          <div ng-repeat="field in fullTemplate.fields" class="field">      
-            <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
-            <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
-          </div>
-          <img src="{{thumbnailSrc()}}" />
-        </div>
+    -->
+    <div class="hud-thumbnail theme-{{theme}} template-{{fullTemplate.slug}}">
+      <div ng-repeat="field in fullTemplate.fields" class="field">      
+        <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+        <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
+      </div>
+      <img src="{{thumbnailSrc()}}" />
+    </div>
   </div>
 
   <h2>Create a Sign</h2>
     
   <div id="theme-choice">
     <h3>1. Choose a theme:</h3>
-    <div>
-      <div switchtheme theme="CD">CD theme</div>
-      <div switchtheme theme="DD">DD theme</div>
-      <div switchtheme theme="DS">DS theme</div>
-      <div switchtheme theme="LD">LD theme</div>
-      <div switchtheme theme="SD">SD theme</div>
-    </div>
+    <ul>
+      <li class="theme-CD" switchtheme theme="CD">CD theme</li>
+      <li class="theme-DD" switchtheme theme="DD">DD theme</li>
+      <li class="theme-DS" switchtheme theme="DS">DS theme</li>
+      <li class="theme-LD" switchtheme theme="LD">LD theme</li>
+      <li class="theme-SD" switchtheme theme="SD">SD theme</li>
+    </ul>
   </div><!-- /#theme-choice -->
-  <div id="template-choice">
+  <div id="template-choice" ng-show="show.step2">
     <h3>2. Choose a Template:</h3>
+      <!--
       Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
       Sort list by:
       <select ng-model="orderProp">
         <option value="size">Size</option>
         <option value="id">ID</option>
       </select>
-   
+      -->
       <ul class="templates">
         <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="template list">
           <div switchtemplate dial="setTemplate(template)" thistemplate="template"></div>
@@ -40,7 +43,7 @@
       </ul>
   </div><!-- /#template-choice -->
   <div id="add-text">
-    <h3>3. Add text:</h3>
+    <h3>3. Edit text:</h3>
     <div>
       <ul>
         <li ng-repeat="field in fullTemplate.fields" class="field">

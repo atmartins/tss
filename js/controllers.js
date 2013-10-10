@@ -6,11 +6,18 @@ function TemplateListCtrl($scope, Template, RunTime) {
   $scope.templates = Template.query();
   $scope.templateOrder = 'id'; //default order of templates
   $scope.theme = 'none'; //initially
-
+  $scope.show = {
+    hud:false,
+    step2:false
+  };
+  
   //Let this scope and the shared scope know which theme was selected
   //by user.
   $scope.setTheme = function(_theme) {
-    $scope.theme = RunTime.theme = _theme;    
+    $scope.theme = RunTime.theme = _theme;
+   // $scope.showHud = true;
+     $scope.show.step2 = true;
+     $scope.show.hud = true;
   }
 
   $scope.templateFields = {};
@@ -23,6 +30,7 @@ function TemplateListCtrl($scope, Template, RunTime) {
     $scope.fullTemplate = Template.get({templateId: template.id}, function(template) {
         //$scope.templateFields = $scope.fullTemplate.fields;
     });
+    
   }
 
   $scope.isCurrency = function(field){
