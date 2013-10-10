@@ -7,7 +7,7 @@
     "theme": "",
     "fields": [
         {
-            "type": "heading",
+            "type": "text",
             "class":"heading",
             "id":"",
             "value":"Product Name"                        

@@ -27,8 +27,8 @@ function TemplateListCtrl($scope, Template, RunTime) {
   $scope.isCurrency = function(field){
     return (field.type === "currency");
   }
-  $scope.isHeading = function(field){
-    return (field.type === "heading");
+  $scope.isText = function(field){
+    return (field.type === "text");
   }
 }
 

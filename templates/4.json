@@ -19,7 +19,7 @@
             "value":"Product description if needed"
         },
     	{
-            "type": "text",
+            "type": "currency",
             "class":"price",
             "id":"",
             "value":"0.00"

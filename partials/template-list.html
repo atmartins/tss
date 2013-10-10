@@ -5,14 +5,11 @@
     <br />Layout: {{fullTemplate.name}}   
         
         <div ng-repeat="field in fullTemplate.fields" class="field">      
-            <div ng-if="isHeading(field)">{{field.value}}</div>
-           <div ng-if="isCurrency(field)">{{field.value | currency:"$"}}</div>
+          <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+          <div ng-if="isCurrency(field)" class="{{field.class}}">{{field.value | currency:"$"}}</div>
         </div>
 
-
-    
     <img src="{{template.thumbnail}}" />
-    
   </div>
 
   <h2>Create a Sign</h2>

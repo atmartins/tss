@@ -13,7 +13,7 @@
             "value":"Product Name"
         },
         {
-            "type": "text",
+            "type": "currency",
             "class":"price",
             "id":"",
             "value":"0.00"
