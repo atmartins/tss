@@ -6,7 +6,7 @@
         
         <div ng-repeat="field in fullTemplate.fields" class="field">      
           <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
-          <div ng-if="isCurrency(field)" class="{{field.class}}">{{field.value | currency:"$"}}</div>
+          <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
         </div>
 
     <img src="{{template.thumbnail}}" />
