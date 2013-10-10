@@ -5,14 +5,20 @@
     <br />Theme: {{theme}}
     <br />Layout: {{fullTemplate.name}}   
     -->
-    <div class="hud-thumbnail theme-{{theme}} template-{{fullTemplate.slug}}" style="background-image:url({{mediumSrc()}});">
-      <div ng-repeat="field in fullTemplate.fields" class="field">      
-        <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
-        <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
+   <div id="thumbnail" class="template-{{fullTemplate.slug}} theme-{{theme}}" style="background-image:url({{mediumSrc()}});">
+        <div class="template">
+        <div ng-repeat="field in fullTemplate.fields" class="field">      
+          <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+          <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>
+          <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
+        </div>
+ 
+      <div ng-repeat="element in fullTemplate.designelements" class="de">
+          <div class="{{element.class}}" id="{{element.id}}"></div>
+      </div>       
       </div>
-      <!-- <img src="{{thumbnailSrc()}}" id="hud-thumbnail" /> -->
-    </div>
-    <div>Note: this preview may be slightly inaccurate. Please review your sign before clicking print.</div>
+  </div>
+
   </div>
 
   <h2>Create a Sign</h2>
@@ -58,15 +64,17 @@
   <h3>4. Review</h3>
 
   <div id="review" class="template-{{fullTemplate.slug}} theme-{{theme}}" style="background-image:url({{mediumSrc()}});">
-          <div ng-repeat="field in fullTemplate.fields" class="field">      
-            <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
-            <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>
-            <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
-          </div>
-   
-        <div ng-repeat="element in fullTemplate.designelements" class="de">
-            <div class="{{element.class}}" id="{{element.id}}"></div>
+      <div class="template">
+        <div ng-repeat="field in fullTemplate.fields" class="field">      
+          <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+          <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>
+          <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
         </div>
+ 
+      <div ng-repeat="element in fullTemplate.designelements" class="de">
+          <div class="{{element.class}}" id="{{element.id}}"></div>
+      </div>       
+      </div>
          
   </div>
 
