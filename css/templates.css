@@ -1,0 +1,44 @@
+/* Template-specific layouts */
+.template-8511a {
+    width: 850px;
+    height: 1100px;
+    overflow: hidden;
+}
+.template-8511a .heading {
+    font-weight: bold;
+    font-size: 165px;
+    line-height: 157px;
+    top: 51px;
+    letter-spacing: -4px;
+    left: 45px;
+    width: 750px;
+    border: 1px solid green;
+}
+.template-8511a .description {
+    font-size: 56px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 60px;
+    top: 380px;
+}
+.template-8511a .price {
+    font-size: 200px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 60px;
+    top: 550px;
+}
+.template-8511a .price .dollar-sign { vertical-align: top }
+.template-8511a .price .dollar-amt {
+    font-size: 360px;
+    line-height: 200px;
+}
+.template-8511a .price .decimal { display: none }
+.template-8511a .price .cents-amt { vertical-align: top }
+.template-8511a .disclaimer {
+    top: 884px;
+    left: 250px;
+    font-style: italic;
+    color: black;
+}
