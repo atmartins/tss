@@ -35,15 +35,15 @@ body { padding-top: 20px }
     margin: 10px;
     cursor: pointer;
 }
+#build #step-theme-choice .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
 /*
  2. Choose a Template
  Template or Sign list views
  */
 #step-template-choice { width: 820px }
-#build #theme-choice .active {
-    font-weight: bold;
-    text-decoration: underline;
-}
 #build #step-template-choice .active { border: 1px solid green }
 #build #step-template-choice .switchtemplate {
     display: block;
@@ -102,7 +102,6 @@ a.list-item {
 }
 #review {
     margin: -100px;
-    
     box-shadow: 0 0 50px black;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);

@@ -19,6 +19,7 @@ function BuildCtrl($scope, Template) {
 
     //Let this scope know which template was selected by user.
     $scope.setTemplate = function (template) {
+        //TODO add active class css
         $scope.template = template;
         $scope.fullTemplate = Template.get({
             templateId: template.id
