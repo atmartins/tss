@@ -1,4 +1,12 @@
-<div id="template-list">
+<div id="template-list" class="no-print">
+  <div id="header">
+    <h1>Template Sign System</h1>
+    <ul id="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/#/template-list">Create</a></li>
+    </ul>
+  </div>
+
   <div id="hud" ng-show="show.hud">   
     <h4>Preview</h4>
     <!--
@@ -17,9 +25,9 @@
           <div class="{{element.class}}" id="{{element.id}}"></div>
       </div>       
       </div>
-  </div>
+  </div> <!-- /#thumbnail -->
 
-  </div>
+  </div><!-- /#hud -->
 
   <h2>Create a Sign</h2>
     
@@ -44,7 +52,7 @@
       </select>
       -->
       <ul class="templates">
-        <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="template list">
+        <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
           <div switchtemplate dial="setTemplate(template)" thistemplate="template"></div>
         </li>
       </ul>
@@ -54,35 +62,39 @@
     <div>
       <ul>
         <li ng-repeat="field in fullTemplate.fields" class="field">
-        <!-- need to map fields to fullTemplate model -->
-         <input type="text" ng-model="field.value" placeholder="">
+        
+         {{field.name}}<input type="text" ng-model="field.value" placeholder="">
         </li>
       </ul>
     </div>
-  </div>
+  </div><!-- /#add-text -->
 
-  <h3>4. Review</h3>
+  
+   
+</div><!-- /#template-list -->
 
-  <div id="review" class="template-{{fullTemplate.slug}} theme-{{theme}}" style="background-image:url({{mediumSrc()}});">
+  <h3 class="no-print">4. Review</h3>
+
+
+  <div id="review" class="print template-{{fullTemplate.slug}} theme-{{theme}}">
       <div class="template">
+        <img src="{{mediumSrc()}}" />
         <div ng-repeat="field in fullTemplate.fields" class="field">      
           <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
           <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>
           <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
         </div>
- 
       <div ng-repeat="element in fullTemplate.designelements" class="de">
           <div class="{{element.class}}" id="{{element.id}}"></div>
       </div>       
       </div>
-         
   </div>
 
-  <div id="print">
+ <div id="print" class="no-print">
     <h3>5. Print</h3>
+    <div class="btn" ng-click="print()">Print Page</div>
     <div class="btn" ng-click="print()">Print</div>
     <div>
       Print help >>
     </div>
-  </div>
-</div><!-- /#template-list -->
+  </div><!-- /#print -->
