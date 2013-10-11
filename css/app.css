@@ -9,9 +9,7 @@ body { padding-top: 20px }
 .theme-DD { color: #763e7b }
 .theme-SD { color: #89c33b }
 .theme-LD { color: #3cb0e3 }
-.theme-DS {
-    color: #f4a236; /*mustard*/
-}
+.theme-DS {color: #f4a236 }
 /*
  HUD
  */
@@ -23,7 +21,7 @@ body { padding-top: 20px }
     box-shadow: 6px 5px 18px #bbb;
     background: #EEE;
     z-index: 100;
-    width: 210px;
+    width: 280px;
     height: 270px;
     padding: 10px;
     border: 1px solid #FFF;
@@ -31,7 +29,7 @@ body { padding-top: 20px }
 /*
  1. Choose a theme
  */
-#theme-choice li {
+#step-theme-choice li {
     list-style: none;
     display: inline;
     margin: 10px;
@@ -41,13 +39,13 @@ body { padding-top: 20px }
  2. Choose a Template
  Template or Sign list views
  */
-#template-choice { width: 820px }
-#template-list #theme-choice .active {
+#step-template-choice { width: 820px }
+#build #theme-choice .active {
     font-weight: bold;
     text-decoration: underline;
 }
-#template-list #template-choice .active { border: 1px solid green }
-#template-list #template-choice .switchtemplate {
+#build #step-template-choice .active { border: 1px solid green }
+#build #step-template-choice .switchtemplate {
     display: block;
     height: 100px;
     width: 200px;
@@ -93,31 +91,38 @@ a.list-item {
 }
 .template div { position: absolute }
 .template img { position: absolute }
+
 #thumbnail {
+    box-shadow: 0 0 70px #aaa;
     position: absolute;
-    top: -396px;
-    left: -320px;
-}
-#thumbnail {
     -webkit-transform: scale(0.2);
     -moz-transform: scale(0.2);
     -o-transform: scale(0.2);
     -ms-transform: scale(0.2);
 }
 #review {
+    margin: -100px;
+    
+    box-shadow: 0 0 50px black;
     -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
     -o-transform: scale(0.7);
     -ms-transform: scale(0.7);
 }
+#review .previewerhtml {
+    /* margin-top:-200px; */
+}
+#step-review {
+    height: 890px;
+    overflow: hidden;
+}
 @media print { 
     .no-print { display: none }
-    .print {
+    #print-sign {
+        display:block;
         padding: 0;
         margin: 0;
         -webkit-print-color-adjust: exact;
-    }
-    #review {
         -webkit-transform: scale(1);
         -moz-transform: scale(1);
         -o-transform: scale(1);

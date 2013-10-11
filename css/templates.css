@@ -1,4 +1,11 @@
 /* Template-specific layouts */
+
+/* 8511a */
+#thumbnail.template-8511a {
+    top: -396px;
+    left: -280px;
+}
+
 .template-8511a {
     width: 850px;
     height: 1100px;
@@ -10,9 +17,8 @@
     line-height: 157px;
     top: 51px;
     letter-spacing: -4px;
-    left: 45px;
+    left: 50px;
     width: 750px;
-    border: 1px solid green;
 }
 .template-8511a .description {
     font-size: 56px;
@@ -21,6 +27,8 @@
     letter-spacing: -3px;
     line-height: 60px;
     top: 380px;
+    left: 30px;
+    width: 790px;
 }
 .template-8511a .price {
     font-size: 200px;
@@ -37,6 +45,57 @@
 .template-8511a .price .decimal { display: none }
 .template-8511a .price .cents-amt { vertical-align: top }
 .template-8511a .disclaimer {
+    top: 884px;
+    left: 250px;
+    font-style: italic;
+    color: black;
+}
+
+
+/* 8511b */
+#thumbnail.template-8511b {
+    top: -276px;
+    left: -407px;
+}
+.template-8511b {
+    color:white;
+    width: 1100px;
+    height: 850px;
+    overflow: hidden;
+}
+.template-8511b .heading {
+    font-weight: bold;
+    font-size: 165px;
+    line-height: 157px;
+    top: 79px;
+    letter-spacing: -4px;
+    left: 60px;
+    width: 980px;
+}
+.template-8511b .description {
+    font-size: 56px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 60px;
+    top: 457px;
+    left: 27px;
+}
+.template-8511b .price {
+    font-size: 200px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 60px;
+    top: 550px;
+}
+.template-8511b .price .dollar-sign { vertical-align: top }
+.template-8511b .price .dollar-amt {
+    font-size: 360px;
+    line-height: 200px;
+}
+.template-8511b .price .decimal { display: none }
+.template-8511b .price .cents-amt { vertical-align: top }
+.template-8511b .disclaimer {
     top: 884px;
     left: 250px;
     font-style: italic;

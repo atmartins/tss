@@ -5,10 +5,12 @@ function BuildCtrl($scope, Template) {
     $scope.templateOrder = 'id'; //default order of templates
     $scope.theme = 'none'; //initially
     $scope.previewerhtml = '/partials/previewer.html';
+    $scope.printState = 'build';
     $scope.show = {
-        hud: true
+        hud: true,
+        print: false
     };  
-    
+    $scope.template = {};
     //Let this scope know which theme was selected by user.
     $scope.setTheme = function (theme) {
         $scope.theme = theme;
@@ -43,15 +45,20 @@ function BuildCtrl($scope, Template) {
         return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png';
     }
 
-    $scope.print = function () {
-        console.log('Printing');
-        var purl = '/print.php' + '?template=' + $scope.template.slug + '&theme=' + $scope.theme;
-        for (var i = 0; i < $scope.fullTemplate.fields.length; i++) {
-            purl += '&' + $scope.fullTemplate.fields[i].id + '=' + $scope.fullTemplate.fields[i].value;
-        }
-        console.log(encodeURI(purl)); //TODO build /print.php which takes all this stuff and builds out a print template
+    $scope.build = function () {
+        console.log('Building');
+       
         //Bonus points, this url will be book-markable
         //Make a print button on that page with this:
+        $scope.printState = 'build';
+        //window.print()
+    }
+    $scope.print = function () {
+        console.log('Printing');
+       
+        //Bonus points, this url will be book-markable
+        //Make a print button on that page with this:
+        $scope.printState = 'print';
         //window.print()
     }
 }

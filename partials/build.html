@@ -1,82 +1,86 @@
-<div id="template-list" class="no-print">
-    <div id="header">
-        <h1>Template Sign System</h1>
-        <ul id="nav">
-            <li><a href="/">Home</a></li>
-            <li><a href="/#/template-list">Create</a></li>
-        </ul>
-    </div>
-    <div id="hud" ng-show="show.hud">
-        <h4>Preview</h4>
-        <!--
-        <br />Theme: {{theme}}
-        <br />Layout: {{fullTemplate.name}}   
-        -->
-        <div id="thumbnail" class="template-{{fullTemplate.slug}} theme-{{theme}}" style="background-image:url({{mediumSrc()}});">
-            <div ng-include="previewerhtml">
-            </div>
-        </div>
-        <!-- /#thumbnail -->
-    </div>
-    <!-- /#hud -->
-    <h2>Create a Sign</h2>
-    <div id="theme-choice">
-        <h3>1. Choose a theme:</h3>
-        <ul>
-            <li class="theme-CD" switchtheme theme="CD">CD theme</li>
-            <li class="theme-DD" switchtheme theme="DD">DD theme</li>
-            <li class="theme-DS" switchtheme theme="DS">DS theme</li>
-            <li class="theme-LD" switchtheme theme="LD">LD theme</li>
-            <li class="theme-SD" switchtheme theme="SD">SD theme</li>
-        </ul>
-    </div>
-    <!-- /#theme-choice -->
-    <div id="template-choice">
-        <h3>2. Choose a Template:</h3>
-        <!--
-          Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
-          Sort list by:
-          <select ng-model="orderProp">
-            <option value="size">Size</option>
-            <option value="id">ID</option>
-          </select>
-          -->
-        <ul class="templates">
-            <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
-            <div switchtemplate click="setTemplate(template)" thistemplate="template">
-            </div>
-            </li>
-        </ul>
-    </div>
-    <!-- /#template-choice -->
-    <div id="add-text">
-        <h3>3. Edit text:</h3>
-        <div>
-            <ul>
-                <li ng-repeat="field in fullTemplate.fields" class="field">
-                {{field.name}}<input type="text" ng-model="field.value" placeholder="">
-                </li>
+<div ng-switch="printState">
+    <div ng-switch-when="build">
+        
+        <div id="header">
+            <h1>Template Sign System</h1>
+            <ul id="nav">
+                <li><a href="/">Home</a></li>
             </ul>
         </div>
-    </div>
-    <!-- /#add-text -->
-</div>
-<!-- /#template-list -->
-<h3 class="no-print">4. Review</h3>
-<div id="review" class="print template-{{fullTemplate.slug}} theme-{{theme}}">
-    <div ng-include="previewerhtml">
-    </div>
-</div>
-<div id="print" class="no-print">
-    <h3>5. Print</h3>
-    <div class="btn" ng-click="print()">
-        Print Page
-    </div>
-    <div class="btn" ng-click="print()">
-        Print
-    </div>
-    <div>
-         Print help >>
-    </div>
-</div>
+
+        <div id="build">   
+            <div id="hud" ng-show="show.hud">
+                <h4>Preview</h4>
+                <div id="thumbnail" class="template-{{fullTemplate.slug}} theme-{{theme}}" >
+                    <div ng-include="previewerhtml"></div>
+                </div><!-- /#thumbnail -->
+            </div><!-- /#hud -->
+
+            <h2 class="section-title">Create a Sign</h2>
+
+            <div id="step-theme-choice" class="step">
+                <h3>1. Choose a theme:</h3>
+                <ul>
+                    <li class="theme-CD" switchtheme theme="CD">Creative Duck</li>
+                    <li class="theme-DD" switchtheme theme="DD">Digital Duck</li>
+                    <li class="theme-DS" switchtheme theme="DS">Duck Stop</li>
+                    <li class="theme-LD" switchtheme theme="LD">Literary Duck</li>
+                    <li class="theme-SD" switchtheme theme="SD">Spirit Duck</li>
+                </ul>
+            </div><!-- /#theme-choice -->
+            
+            <div id="step-template-choice" class="step">
+                <h3>2. Choose a Template:</h3>
+                <!--
+                  Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
+                  Sort list by:
+                  <select ng-model="orderProp">
+                    <option value="size">Size</option>
+                    <option value="id">ID</option>
+                  </select>
+                  -->
+                <ul class="templates">
+                    <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
+                        <div switchtemplate click="setTemplate(template)" thistemplate="template"></div>
+                    </li>
+                </ul>
+            </div><!-- /#step-template-choice -->
+
+            <div id="step-edit-text" class="step">
+                <h3>3. Edit text:</h3>
+                <div>
+                    <ul>
+                        <li ng-repeat="field in fullTemplate.fields" class="field">
+                        {{field.name}}<input type="text" ng-model="field.value" placeholder="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /#step-edit-text -->
+
+            <div id="step-review" class="step">
+                <h3>4. Review</h3>
+                <div id="review" class="template-{{fullTemplate.slug}} theme-{{theme}}">
+                    <div ng-include="previewerhtml" class="previewerhtml"></div>
+                </div>
+            </div><!-- /#step-review -->
+
+            <div id="step-print" class="step">           
+                <h3>5. Print</h3>
+                <div class="btn" ng-click="print()">
+                    Print
+                </div>
+            </div><!-- /#step-print -->
+
+        </div><!-- /#build -->
+    </div><!-- /ng-switch-when="build" -->
+
+
+    <div ng-switch-when="print">
+        <div class="btn no-print" ng-click="build()">Return to build</div>
+        <div id="print-sign" class="print template-{{fullTemplate.slug}} theme-{{theme}}">
+            <div ng-include="previewerhtml"></div>
+        </div>
+    </div><!-- /ng-switch-when="print" -->
+</div><!-- /ng-switch="printState" -->
 <!-- /#print -->
