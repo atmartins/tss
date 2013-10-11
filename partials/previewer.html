@@ -1,0 +1,11 @@
+<div class="template">
+    <img src="{{mediumSrc()}}" />
+    <div ng-repeat="field in fullTemplate.fields" class="field">      
+        <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
+        <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>
+        <div ng-if="isCurrency(field)" class="{{field.class}}" ng-bind-html-unsafe='field.value | currency:"$" | currencySplit'></div>
+    </div>
+    <div ng-repeat="element in fullTemplate.designelements" class="de">
+        <div class="{{element.class}}" id="{{element.id}}"></div>
+    </div>       
+</div>

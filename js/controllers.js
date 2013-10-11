@@ -13,6 +13,8 @@ function TemplateListCtrl($scope, Template, RunTime) {
     step2:true
   };
   
+  $scope.previewerhtml = '/partials/previewer.html';
+  
   //Let this scope and the shared scope know which theme was selected
   //by user.
   $scope.setTheme = function(_theme) {
@@ -69,6 +71,10 @@ function TemplateListCtrl($scope, Template, RunTime) {
     //Make a print button on that page with this:
     //window.print()
   }
+
+
+
+
 }
 
 
