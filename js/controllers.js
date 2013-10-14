@@ -2,6 +2,7 @@
 
 function BuildCtrl($scope, Template) {
     $scope.templates = Template.query();
+    
     $scope.templateOrder = 'id'; //default order of templates
     $scope.theme = 'none'; //default
     

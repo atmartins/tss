@@ -1,5 +1,5 @@
 <div class="template">
-    <img src="{{mediumSrc()}}" />
+    <img ng-src="{{mediumSrc()}}" />
     <div ng-repeat="field in fullTemplate.fields" class="field">      
         <div ng-if="isText(field)" class="{{field.class}}">{{field.value}}</div>
         <div ng-if="isDisclaimer(field)" class="{{field.class}}">{{field.value | disclaimer}}</div>

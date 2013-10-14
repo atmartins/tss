@@ -41,7 +41,11 @@
                   -->
                 <ul class="templates">
                     <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
-                        <div switchtemplate click="setTemplate(template)" thistemplate="template"></div>
+                        <div switchtemplate ng-click="setTemplate(template)">
+                            {{template.name}}
+                            {{template.id}}
+                            <img ng-src="{{template.thumbnail}}" />
+                        </div>
                     </li>
                 </ul>
             </div><!-- /#step-template-choice -->
