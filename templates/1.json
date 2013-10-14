@@ -5,7 +5,13 @@
     "description": "8.5x11 inch sign. Use for products and general information.",
     "width":"8.5",
     "height":"11",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
             "type": "text",

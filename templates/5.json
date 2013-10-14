@@ -5,7 +5,13 @@
     "description": "3.5 by 5.25 inch vertical product sign.",
     "width":"3.5",
     "height":"5.25",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
             "type": "text",

@@ -5,7 +5,13 @@
     "description": "11 by 8.5 inch horizontal sign with no price.",
     "width":"11",
     "height":"8.5",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
                 "type": "text",

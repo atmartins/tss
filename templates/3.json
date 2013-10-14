@@ -5,7 +5,13 @@
     "description": "11 by 7 inch horizontal sign with trim line.",
     "width":"11",
     "height":"7",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
                 "type": "text",

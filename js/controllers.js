@@ -27,7 +27,15 @@ function BuildCtrl($scope, Template) {
         $scope.template = template;
         $scope.fullTemplate = Template.get({
             templateId: template.id
-        }, function (template) {});
+        }, function (template) {
+            var curTheme = $scope.theme; //hold current theme, check if supported
+            $scope.theme = 'none'; //assume theme is unsupported by new template choice
+            for(var i = 0; i < template.themes.length; i++){
+                if(template.themes[i].id == curTheme){
+                    $scope.theme = curTheme; //template supports theme choice, revert to it
+                }
+            }
+        });
     }
 
     $scope.isCurrency = function (field) {
@@ -43,9 +51,9 @@ function BuildCtrl($scope, Template) {
     }
 
     //Return the appropriate path for medium resolution template image
-    $scope.mediumSrc = function () {
+    $scope.getSrc = function (size) {
         if($scope.template.slug && $scope.theme){
-            return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png'
+            return '/img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
         } else {
             return '';
         }

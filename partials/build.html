@@ -18,19 +18,8 @@
 
             <h2 class="section-title">Create a Sign</h2>
 
-            <div id="step-theme-choice" class="step">
-                <h3>1. Choose a theme:</h3>
-                <ul>
-                    <li class="theme-CD" switchtheme theme="CD">Creative Duck</li>
-                    <li class="theme-DD" switchtheme theme="DD">Digital Duck</li>
-                    <li class="theme-DS" switchtheme theme="DS">Duck Stop</li>
-                    <li class="theme-LD" switchtheme theme="LD">Literary Duck</li>
-                    <li class="theme-SD" switchtheme theme="SD">Spirit Duck</li>
-                </ul>
-            </div><!-- /#theme-choice -->
-            
             <div id="step-template-choice" class="step">
-                <h3>2. Choose a Template:</h3>
+                <h3>1. Choose a Template:</h3>
                 <!--
                   Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
                   Sort list by:
@@ -49,6 +38,19 @@
                     </li>
                 </ul>
             </div><!-- /#step-template-choice -->
+
+            <div id="step-theme-choice" class="step">
+                <h3>2. Choose a theme:</h3>
+                <div>
+                    <ul>
+                        <li ng-repeat="theme in fullTemplate.themes" class="theme">
+                         <div class="theme-{{theme.id}}" ng-click="setTheme(theme.id)">{{theme.id}}:</div>
+                        </li>
+                    </ul>
+                </div>
+            </div><!-- /#theme-choice -->
+            
+           
 
             <div id="step-edit-text" class="step">
                 <h3>3. Edit text:</h3>

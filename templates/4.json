@@ -5,7 +5,13 @@
     "description": "5 by 7 inch vertical product sign.",
     "width":"5",
     "height":"7",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
             "type": "text",
@@ -24,6 +30,12 @@
             "class":"price",
             "id":"price",
             "value":"0.00"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Product disclaimer if needed"
         }
     ]
 }

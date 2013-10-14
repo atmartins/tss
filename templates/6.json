@@ -5,13 +5,19 @@
     "description": "5.25 by 3.5 inch horizontal product sign.",
     "width":"5.25",
     "height":"3.5",
-    "theme": "",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
     "fields": [
         {
             "type": "text",
             "class":"heading",
             "id":"heading",
-            "value":"Product Name"
+            "value":"Product"
         },
         {
             "type": "currency",
