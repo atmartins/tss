@@ -26,7 +26,7 @@ angular.module('tssDirectives', ['ngResource'])
                     });
                     //TODO not clearing .active from siblings because the don't have a common parent (they have a grandparent)
                     element.parent().parent().children().removeClass("active");
-                    element.addClass('active');
+                    element.parent().addClass('active');
                 })
             }
         }

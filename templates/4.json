@@ -10,19 +10,19 @@
         {
             "type": "text",
             "class":"heading",
-            "id":"",
+            "id":"heading",
             "value":"Product Name"
         },
         {
             "type": "text",
             "class":"description",
-            "id":"",
+            "id":"description",
             "value":"Product description if needed"
         },
     	{
             "type": "currency",
             "class":"price",
-            "id":"",
+            "id":"price",
             "value":"0.00"
         }
     ]

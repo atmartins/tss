@@ -3,15 +3,19 @@
 function BuildCtrl($scope, Template) {
     $scope.templates = Template.query();
     $scope.templateOrder = 'id'; //default order of templates
-    $scope.theme = 'none'; //initially
+    $scope.theme = 'none'; //default
+    
     $scope.previewerhtml = '/partials/previewer.html';
     $scope.printState = 'build';
+    
     $scope.show = {
         hud: true,
         print: false
     };  
+    
     $scope.template = {};
     //Let this scope know which theme was selected by user.
+    
     $scope.setTheme = function (theme) {
         $scope.theme = theme;
     }
@@ -36,11 +40,11 @@ function BuildCtrl($scope, Template) {
     $scope.isDisclaimer = function (field) {
         return (field.type === "disclaimer");
     }
-
+/*
     $scope.thumbnailSrc = function () {
         return '/img/' + $scope.template.slug + '/thumbnail/' + $scope.theme + '.png';
     }
-
+*/
     $scope.mediumSrc = function () {
         return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png';
     }

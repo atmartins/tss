@@ -70,6 +70,15 @@ a.list-item {
     float: right;
     box-shadow: 1px 1px 10px #ccc;
 }
+
+/* Edit Text step */
+#step-edit-text li {
+    list-style: none;
+}
+#step-edit-text label {
+    text-transform: capitalize;
+    list-style: none;
+}
 /* Template Preview/Review/Hud thumbnail */
 .field { width: 95% }
 .heading {
@@ -91,6 +100,8 @@ a.list-item {
 }
 .template div { position: absolute }
 .template img { position: absolute }
+
+
 
 #thumbnail {
     box-shadow: 0 0 70px #aaa;

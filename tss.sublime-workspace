@@ -128,66 +128,18 @@
 	"buffers":
 	[
 		{
-			"file": "js/services.js",
+			"file": "partials/build.html",
 			"settings":
 			{
-				"buffer_size": 760,
+				"buffer_size": 3509,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "js/app.js",
+			"file": "partials/previewer.html",
 			"settings":
 			{
-				"buffer_size": 583,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 2614,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/directives.js",
-			"settings":
-			{
-				"buffer_size": 1222,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "partials/template-list.html",
-			"settings":
-			{
-				"buffer_size": 3612,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/filters.js",
-			"settings":
-			{
-				"buffer_size": 1299,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 817,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/templates.json",
-			"settings":
-			{
-				"buffer_size": 1932,
+				"buffer_size": 617,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,15 +147,39 @@
 			"file": "css/app.css",
 			"settings":
 			{
-				"buffer_size": 4204,
+				"buffer_size": 2661,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/1.json",
+			"file": "js/controllers.js",
 			"settings":
 			{
-				"buffer_size": 865,
+				"buffer_size": 2078,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/directives.js",
+			"settings":
+			{
+				"buffer_size": 1538,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/templates.css",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/templates.json",
+			"settings":
+			{
+				"buffer_size": 1942,
 				"line_ending": "Windows"
 			}
 		}
@@ -211,9 +187,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 196.0,
+		"height": 334.0,
 		"selected_items":
 		[
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"reind",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"sav",
 				"Project: Save As"
@@ -267,7 +251,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 392.0
+		"width": 416.0
 	},
 	"console":
 	{
@@ -287,8 +271,27 @@
 	},
 	"file_history":
 	[
+		"/C/wamp/www/tss/js/directives.js",
+		"/C/wamp/www/tss/partials/previewer.html",
 		"/C/wamp/www/tss/templates/2.json",
+		"/C/wamp/www/tss/templates/templates.json",
+		"/C/wamp/www/tss/js/controllers.js",
+		"/C/wamp/www/tss/partials/template-list.html",
+		"/C/wamp/www/tss/css/app.css",
+		"/C/wamp/www/tss/js/app.js",
+		"/C/wamp/www/tss/index.html",
+		"/C/wamp/www/tss/partials/print.html",
+		"/C/wamp/www/tss/css/templates.css",
+		"/C/wamp/www/tss/partials/list.html",
+		"/C/wamp/www/tss/js/services.js",
+		"/C/wamp/www/tss/js/filters.js",
+		"/C/wamp/www/tss/partials/template-new-detail.html",
+		"/C/wamp/www/tss/partials/edit-detail.html",
+		"/C/wamp/www/tss/partials/template-button.html",
 		"/C/wamp/www/tss/templates/1.json",
+		"/C/wamp/www/uno/cats/more.js",
+		"/C/Users/aaronm/AppData/Local/Temp/Temp1_featured-image-in-rss-feed.0.3.zip/featured-image-in-rss-feed/featured-image-in-rss-feed.php",
+		"/C/Users/aaronm/AppData/Local/Temp/Temp1_featured-image-in-rss-feed.0.3.zip/featured-image-in-rss-feed/plugin_interface.php",
 		"/C/wamp/www/tss/templates/3.json",
 		"/C/wamp/www/tss/templates/4.json",
 		"/C/wamp/www/tss/templates/5.json",
@@ -296,26 +299,14 @@
 		"/C/wamp/www/tss/lib/angular/angular.js",
 		"/C/Users/aaronm/Desktop/slideshowHTML.html",
 		"/C/Users/aaronm/Desktop/tempshit.html",
-		"/C/wamp/www/tss/css/app.css",
-		"/C/wamp/www/tss/partials/template-new-detail.html",
-		"/C/wamp/www/tss/js/app.js",
 		"/C/wamp/www/uno/cats/books.js",
-		"/C/wamp/www/tss/js/services.js",
 		"/C/wamp/www/lou/mocup/from_eric.csv",
 		"/C/wamp/www/lou/mocup/index.php",
 		"/C/Users/aaronm/Desktop/mail order catalog update/from_eric.csv",
-		"/C/wamp/www/tss/partials/list.html",
-		"/C/wamp/www/tss/partials/template-list.html",
-		"/C/wamp/www/tss/templates/templates.json",
-		"/C/wamp/www/tss/index.html",
-		"/C/wamp/www/tss/js/controllers.js",
-		"/C/wamp/www/tss/partials/edit-detail.html",
 		"/C/wamp/www/tss/signs/1.json",
 		"/C/Users/aaronm/Documents/GitHub/angular-phonecat/app/phones/phones.json",
 		"/C/Users/aaronm/Documents/GitHub/angular-phonecat/app/phones/motorola-xoom-with-wi-fi.json",
 		"/C/wamp/www/tss/signs/signs.json",
-		"/C/wamp/www/tss/js/directives.js",
-		"/C/wamp/www/tss/js/filters.js",
 		"/C/wamp/www/tss/signs/reports.json",
 		"/C/wamp/www/tss/signs/app_rmc_reports_checkboxes_state.json",
 		"/C/wamp/www/tss/signs/app_rmc_reports_comments.json",
@@ -395,7 +386,6 @@
 		"/C/wamp/www/uno/cats/artsupplies.js",
 		"/C/wamp/www/uno/cats/schooloffice.js",
 		"/C/wamp/www/uno/cats/auto.js",
-		"/C/wamp/www/uno/cats/more.js",
 		"/C/Users/aaronm/Google Drive/Projects/0032 Listrak/Volusion Integration/Exporting info/Orders_C8ZE82BH66.csv",
 		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/listrakTarget.csv",
 		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/volusionOutput.xml",
@@ -408,13 +398,7 @@
 		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/Mobile_Detect.php",
 		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/pmr_admin_form.php",
 		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/php-mobile-redirect.php",
-		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/dev.uoduckstore.com.com-error.log",
-		"/C/wamp/www/rmc2/sub/js/filters.js",
-		"/C/wamp/www/rmc2/js/services.js",
-		"/C/wamp/www/rmc2/index.html",
-		"/C/wamp/www/rmc2/js/directives.js",
-		"/C/wamp/www/rmc2/js/filters.js",
-		"/C/wamp/www/rmc2/js/controllers.js"
+		"/C/Users/aaronm/AppData/Local/Temp/fz3temp-1/dev.uoduckstore.com.com-error.log"
 	],
 	"find":
 	{
@@ -425,6 +409,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"C:\\wamp\\www\\tss",
 			""
 		]
 	},
@@ -433,6 +418,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mediumSrc()",
+			"medium",
+			"me",
+			"template-choice",
+			"template-list",
 			"tru",
 			"2013_2014",
 			"width",
@@ -514,58 +504,58 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "js/services.js",
+					"file": "partials/build.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 760,
+						"buffer_size": 3509,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								127,
-								127
+								1160,
+								1160
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 23.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "js/app.js",
+					"file": "partials/previewer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 583,
+						"buffer_size": 617,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								583,
-								583
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -575,219 +565,135 @@
 				},
 				{
 					"buffer": 2,
-					"file": "js/controllers.js",
+					"file": "css/app.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2614,
+						"buffer_size": 2661,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1656,
-								1656
+								842,
+								842
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 618.0,
+						"translation.y": 221.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "js/directives.js",
+					"file": "js/controllers.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1222,
+						"buffer_size": 2078,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								261,
-								261
+								631,
+								631
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 59.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "partials/template-list.html",
+					"file": "js/directives.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3612,
+						"buffer_size": 1538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2526,
-								2526
+								1358,
+								1358
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 660.0,
+						"translation.x": 77.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "js/filters.js",
+					"file": "css/templates.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1299,
+						"buffer_size": 2116,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1201,
-								1201
+								2116,
+								2116
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 314.0,
+						"translation.y": 2034.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 6,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 817,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								50,
-								50
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "templates/templates.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1932,
+						"buffer_size": 1942,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1038,
-								1038
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "css/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4204,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3730,
-								3730
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "templates/1.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								60,
-								60
+								452,
+								452
 							]
 						],
 						"settings":
