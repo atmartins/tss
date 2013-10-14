@@ -21,10 +21,6 @@ angular.module('tssDirectives', ['ngResource'])
             template: '<div class="switchtemplate" ng-click="click()">{{thistemplate.name}}' + '{{thistemplate.id}}' + '<img src="{{thistemplate.thumbnail}}" />' + '</div>',
             link:function(scope,element,attrs){
                 element.bind("click", function () {
-                    scope.$apply(function () {
-                        scope.setTheme(attrs.theme);
-                    });
-                    //TODO not clearing .active from siblings because the don't have a common parent (they have a grandparent)
                     element.parent().parent().children().removeClass("active");
                     element.parent().addClass('active');
                 })
