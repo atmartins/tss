@@ -10,6 +10,7 @@ body { padding-top: 20px }
 .theme-SD { color: #89c33b }
 .theme-LD { color: #3cb0e3 }
 .theme-DS {color: #f4a236 }
+.theme-sale {color: red }
 .step {
     clear: both;
     margin: 20px;

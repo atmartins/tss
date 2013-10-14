@@ -305,3 +305,90 @@
     font-size: 25px;
     font-weight: bold;
 }
+
+/* 8511c */
+#thumbnail.template-8511c {
+    top: -374px;
+    left: -264px;
+}
+
+.template-8511c {
+    color:white;
+    width: 850px;
+    height: 1100px;
+    width: 8.5in;
+    height: 11in;
+    overflow: hidden;
+}
+
+.template-8511c .heading {
+    font-weight: bold;
+    font-size: 126px;
+    line-height: 151px;
+    top: 237px;
+    letter-spacing: -4px;
+    left: 26px;
+    width: 763px;
+}
+.template-8511c .description {
+    font-size: 43px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 68px;
+    top: 382px;
+    left: 25px;
+    width: 765px;
+}
+.template-8511c .price {
+    font-size: 170px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 60px;
+    top: 530px;
+    left: 20px;
+}
+.template-8511c .price .dollar-sign { vertical-align: top }
+.template-8511c .price .dollar-amt {
+    font-size: 290px;
+    line-height: 193px;
+}
+.template-8511c .price .decimal { display: none }
+.template-8511c .price .cents-amt { vertical-align: top }
+
+.template-8511c .regularprice {
+    font-size: 39px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 60px;
+    top: 757px;
+    left: 487px;
+    font-style: italic;
+}
+.template-8511c .regularprice .dollar-sign { vertical-align: top }
+.template-8511c .regularprice .dollar-amt {
+    font-size: 66px;
+    line-height: 87px;
+}
+.template-8511c .regularprice .decimal { display: none }
+.template-8511c .regularprice .cents-amt { vertical-align: top }
+
+.template-8511c .disclaimer {
+    top: 980px;
+    left: 40px;
+    width: 733px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.regularpricetext {
+    top: 791px;
+    right: 300px;
+    font-size: 58px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: right;
+    width: 310px;
+}
+

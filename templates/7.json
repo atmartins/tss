@@ -6,7 +6,11 @@
     "width":"11",
     "height":"7",
     "themes": [
-        {"id":"sale"}
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
     ],
     "fields": [
         {

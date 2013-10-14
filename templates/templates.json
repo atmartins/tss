@@ -63,5 +63,13 @@
         "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line, sale",
         "size":77,
         "thumbnail":"/img/layout/117c_thumbnail.png"
+    },{
+        "id": 8,
+        "slug":"8511c",
+        "name":"8.5x11 Sale",
+        "description": "",
+        "keywords": "name, description, portrait, up, vertical, sale",
+        "size":93.5,
+        "thumbnail":"/img/layout/8511c_thumbnail.png"
     }
 ]

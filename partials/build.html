@@ -42,7 +42,7 @@
             <div id="step-theme-choice" class="step">
                 <h3>2. Choose a theme:</h3>
                     <ul>
-                        <li ng-repeat="theme in fullTemplate.themes" ng-click="setTheme(theme.id)" class="theme theme-{{theme.id}}">
+                        <li switchtheme ng-repeat="theme in fullTemplate.themes" ng-click="setTheme(theme.id)" class="theme theme-{{theme.id}}">
                         {{theme.id}}
                         </li>
                     </ul>
@@ -60,14 +60,14 @@
             </div><!-- /#step-edit-text -->
 
             <div id="step-review" class="step">
-                <h3>4. Review</h3>
+                <h3>4. Review:</h3>
                 <div id="review" class="template-{{fullTemplate.slug}} theme-{{theme}}">
                     <div ng-include="previewerhtml" class="previewerhtml"></div>
                 </div>
             </div><!-- /#step-review -->
 
             <div id="step-print" class="step">           
-                <h3>5. Print</h3>
+                <h3>5. Print:</h3>
                 <div class="btn" ng-click="print()">
                     Print
                 </div>

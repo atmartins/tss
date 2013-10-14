@@ -1,0 +1,52 @@
+ {
+    "id": "8",
+    "slug":"8511c",
+    "name":"8.5 x 11",
+    "description": "",
+    "width":"8.5",
+    "height":"11",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Sale Item(s)"                        
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"description if needed"
+        },
+        {
+            "type": "currency",
+            "class":"price",
+            "id":"price",
+            "value":"0.00"
+        },{
+            "type": "text",
+            "class":"regularpricetext",
+            "id":"regularpricetext",
+            "value":"regularly"
+        },
+        {
+            "type": "currency",
+            "class":"regularprice",
+            "id":"regularprice",
+            "value":"0.00"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Disclaimer copy if needed"
+        }
+    ]
+}
