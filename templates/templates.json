@@ -47,5 +47,21 @@
         "keywords": "name, landscape, sideways, horizontal",
         "size":18.375,
         "thumbnail":"/img/layout/35525b_thumbnail.png"
+    },{
+        "id": 6,
+        "slug":"35525b",
+        "name":"5.25x3.5",
+        "description": "5.25 in. by 3.5 in. with name and price",
+        "keywords": "name, landscape, sideways, horizontal",
+        "size":18.375,
+        "thumbnail":"/img/layout/35525b_thumbnail.png"
+    },{
+        "id": 7,
+        "slug":"117c",
+        "name":"11x7 (trim) Sale",
+        "description": "11 in. by 7 in. with name, percent off and disclaimer.",
+        "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line, sale",
+        "size":77,
+        "thumbnail":"/img/layout/117c_thumbnail.png"
     }
 ]

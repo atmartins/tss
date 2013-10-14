@@ -1,0 +1,31 @@
+ {
+    "id": "7",
+    "slug":"117c",
+    "name":"11 x 7",
+    "description": "",
+    "width":"11",
+    "height":"7",
+    "themes": [
+        {"id":"sale"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Product Name or Sale Items"                        
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"00% OFF"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Disclaimer copy if needed"
+        }
+    ]
+}

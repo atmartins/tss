@@ -127,6 +127,7 @@
     top: 410px;
     left: 27px;
 }
+
 /* 57a */
 #thumbnail.template-57a {
     top: -232px;
@@ -261,3 +262,46 @@
 }
 .template-35525b .price .decimal { display: none }
 .template-35525b .price .cents-amt { vertical-align: top }
+
+/* 117c sale */
+#thumbnail.template-117c {
+    top: -276px;
+    left: -407px;
+}
+.template-117c {
+    color:white;
+    width: 1100px;
+    height: 850px;
+    overflow: hidden;
+}
+@media print {
+    .template-117c {
+        width: 11in;
+        height: 8.5in;
+    }   
+}
+.template-117c .heading {
+    font-weight: bold;
+    font-size: 75px;
+    line-height: 157px;
+    top: 224px;
+    letter-spacing: -4px;
+    left: 30px;
+    width: 1040px;
+}
+.template-117c .description {
+    font-size: 206px;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 60px;
+    top: 420px;
+    left: 27px;
+}
+.template-117c .disclaimer {
+    top: 636px;
+    left: 100px;
+    width: 900px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

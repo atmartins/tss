@@ -41,16 +41,12 @@
 
             <div id="step-theme-choice" class="step">
                 <h3>2. Choose a theme:</h3>
-                <div>
                     <ul>
-                        <li ng-repeat="theme in fullTemplate.themes" class="theme">
-                         <div class="theme-{{theme.id}}" ng-click="setTheme(theme.id)">{{theme.id}}:</div>
+                        <li ng-repeat="theme in fullTemplate.themes" ng-click="setTheme(theme.id)" class="theme theme-{{theme.id}}">
+                        {{theme.id}}
                         </li>
                     </ul>
-                </div>
             </div><!-- /#theme-choice -->
-            
-           
 
             <div id="step-edit-text" class="step">
                 <h3>3. Edit text:</h3>
@@ -61,8 +57,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
-            <!-- /#step-edit-text -->
+            </div><!-- /#step-edit-text -->
 
             <div id="step-review" class="step">
                 <h3>4. Review</h3>
@@ -80,7 +75,6 @@
 
         </div><!-- /#build -->
     </div><!-- /ng-switch-when="build" -->
-
 
     <div ng-switch-when="print">
         <div class="btn no-print" ng-click="build()">Return to build</div>
