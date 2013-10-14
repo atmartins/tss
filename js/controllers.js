@@ -2,7 +2,7 @@
 
 function BuildCtrl($scope, Template) {
     $scope.templates = Template.query();
-    
+
     $scope.templateOrder = 'id'; //default order of templates
     $scope.theme = 'none'; //default
     
@@ -47,7 +47,12 @@ function BuildCtrl($scope, Template) {
     }
 */
     $scope.mediumSrc = function () {
-        return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png';
+        if($scope.template.slug && $scope.theme){
+            return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png'
+        } else {
+            return '';
+        }
+        //return ;
     }
 
     $scope.build = function () {
