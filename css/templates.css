@@ -2,15 +2,18 @@
 
 /* 8511a */
 #thumbnail.template-8511a {
-    top: -396px;
-    left: -280px;
+    top: -374px;
+    left: -264px;
 }
 
 .template-8511a {
     width: 850px;
     height: 1100px;
+    width: 8.5in;
+    height: 11in;
     overflow: hidden;
 }
+
 .template-8511a .heading {
     font-weight: bold;
     font-size: 165px;
@@ -64,6 +67,12 @@
     height: 850px;
     overflow: hidden;
 }
+@media print {
+    .template-8511b {
+        width: 11in;
+        height: 8.5in;
+    }   
+}
 .template-8511b .heading {
     font-weight: bold;
     font-size: 165px;
@@ -94,6 +103,12 @@
     height: 850px;
     overflow: hidden;
 }
+@media print {
+    .template-117b {
+        width: 11in;
+        height: 8.5in;
+    }   
+}
 .template-117b .heading {
     font-weight: bold;
     font-size: 165px;
@@ -111,4 +126,59 @@
     line-height: 60px;
     top: 410px;
     left: 27px;
+}
+/* 57a */
+#thumbnail.template-57a {
+    top: -232px;
+    left: -144px;
+}
+#review.template-57a {margin: 0;}
+.template-57a {
+    width: 500px;
+    height: 700px;
+    width: 5in;
+    height: 7in;
+    margin:.5in .5in .5in .5in;
+    overflow: hidden;
+}
+
+.template-57a .heading {
+    font-weight: bold;
+    font-size: 105px;
+    line-height: 87px;
+    top: 46px;
+    letter-spacing: -4px;
+    left: 30px;
+    width: 440px;
+}
+.template-57a .description {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: -3px;
+    line-height: 40px;
+    top: 251px;
+    left: 30px;
+    width: 439px;
+}
+.template-57a .price {
+    font-size: 130px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 60px;
+    top: 359px;
+    left: 20px;
+}
+.template-57a .price .dollar-sign { vertical-align: top }
+.template-57a .price .dollar-amt {
+    font-size: 230px;
+    line-height: 150px;
+}
+.template-57a .price .decimal { display: none }
+.template-57a .price .cents-amt { vertical-align: top }
+.template-57a .disclaimer {
+    top: 884px;
+    left: 250px;
+    font-style: italic;
+    color: black;
 }

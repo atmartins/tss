@@ -42,9 +42,9 @@
                 <ul class="templates">
                     <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
                         <div switchtemplate ng-click="setTemplate(template)">
-                            {{template.name}}
-                            {{template.id}}
-                            <img ng-src="{{template.thumbnail}}" />
+                            <img ng-src="{{template.thumbnail}}" class="template-image" />
+                            <div class="template-name">{{template.name}}</div>
+                            <div class="template-description">{{template.description}}</div>
                         </div>
                     </li>
                 </ul>

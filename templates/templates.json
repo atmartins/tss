@@ -6,7 +6,6 @@
         "description": "8.5 in. by 11 in. with name, description and price.",
         "keywords": "name, description, price, portrait, up, tall, vertical",
         "size":93.5,
-        "theme":"",
         "thumbnail":"/img/layout/8511a_thumbnail.png"
     },{
         "id": 2,
@@ -15,16 +14,14 @@
         "description": "11 by 8.5 inch horizontal sign with no price.",
         "keywords": "name, description, landscape, sideways, horizontal",
         "size":93.5,
-        "theme":"",
         "thumbnail":"/img/layout/117a_thumbnail.png"
     },{
         "id": 3,
         "slug":"117b",
-        "name":"11x7 Cut",
+        "name":"11x7 (trim)",
         "description": "11 in. by 7 in. with name, description and a dashed line to trim at.",
         "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line",
         "size":77,
-        "theme":"",
         "thumbnail":"/img/layout/117b_thumbnail.png"
     },{
         "id": 4,
@@ -33,7 +30,6 @@
         "description": "5 in. by 7 in. with name, description and price.",
         "keywords": "name, description, price, portrait, up, tall, vertical",
         "size":35,
-        "theme":"",
         "thumbnail":"/img/layout/57a_thumbnail.png"
     },{
         "id": 5,
@@ -42,7 +38,6 @@
         "description": "3.5 in. by 5.25 in. with name and description",
         "keywords": "name, description, portrait, up, tall, vertical",
         "size":18.375,
-        "theme":"",
         "thumbnail":"/img/layout/35525a_thumbnail.png"
     },{
         "id": 6,
@@ -51,7 +46,6 @@
         "description": "5.25 in. by 3.5 in. with name and price",
         "keywords": "name, landscape, sideways, horizontal",
         "size":18.375,
-        "theme":"",
         "thumbnail":"/img/layout/35525b_thumbnail.png"
     }
 ]

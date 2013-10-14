@@ -41,11 +41,8 @@ function BuildCtrl($scope, Template) {
     $scope.isDisclaimer = function (field) {
         return (field.type === "disclaimer");
     }
-/*
-    $scope.thumbnailSrc = function () {
-        return '/img/' + $scope.template.slug + '/thumbnail/' + $scope.theme + '.png';
-    }
-*/
+
+    //Return the appropriate path for medium resolution template image
     $scope.mediumSrc = function () {
         if($scope.template.slug && $scope.theme){
             return '/img/' + $scope.template.slug + '/medium/' + $scope.theme + '.png'
