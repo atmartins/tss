@@ -71,13 +71,22 @@ function BuildCtrl($scope, Template) {
     $scope.print = function () {
         console.log('Printing');
        
-        //Bonus points, this url will be book-markable
-        //Make a print button on that page with this:
-        $scope.printState = 'print';
-        setTimeout( function(){
-            window.print();
-        }, 1000 );
-        
+        if($scope.theme == 'none'){
+            alert('Please choose a theme (step 2)');
+        } else {
+            //show appropriate content
+            $scope.printState = 'print';
+            
+            if( parseFloat($scope.fullTemplate.width) > parseFloat($scope.fullTemplate.height) ){
+                console.log('landscape orientation');
+                alert('Remember to change print layout setting to landscape!');
+            } else {
+                console.log('portrait orientation');
+            }
+            setTimeout( function(){
+                window.print();
+            }, 1000 );
+        }        
     }
 }
 
