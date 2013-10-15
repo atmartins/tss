@@ -3,10 +3,15 @@
         
         <div id="header">
             <h1>The Duck Store Template Sign System</h1>
+            <!--
             <ul id="nav">
                 <li><a href="/">Home</a></li>
             </ul>
-            <p>Supported browsers: Google Chrome and Mozilla Firefox.</p>
+            -->
+            <div id="help">
+                <p>Supported browsers: Google Chrome and Mozilla Firefox.</p>
+            </div>
+            
         </div>
 
         <div id="build">   
@@ -30,8 +35,8 @@
                   </select>
                   -->
                 <ul class="templates">
-                    <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list">
-                        <div switchtemplate ng-click="setTemplate(template)">
+                    <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list btn">
+                        <div switchtemplate ng-click="setTemplate(template)" >
                             <img ng-src="{{template.thumbnail}}" class="template-image" />
                             <div class="template-name">{{template.name}}</div>
                             <div class="template-description">{{template.description}}</div>
@@ -44,9 +49,7 @@
             <div id="step-theme-choice" class="step">
                 <h3>2. Choose a theme:</h3>
                     <ul>
-                        <li switchtheme ng-repeat="theme in fullTemplate.themes" ng-click="setTheme(theme.id)" class="theme theme-{{theme.id}}">
-                        {{theme.id}}
-                        </li>
+                        <li switchtheme ng-repeat="theme in fullTemplate.themes" ng-click="setTheme(theme.id)" class="theme theme-{{theme.id}} btn">{{theme.id}}</li>
                     </ul>
             </div><!-- /#theme-choice -->
 
@@ -79,7 +82,7 @@
     </div><!-- /ng-switch-when="build" -->
 
     <div ng-switch-when="print">
-        <div class="btn no-print" ng-click="build()">Return to build</div>
+        <div class="btn no-print" id="return-to-build-btn" ng-click="build()">Return to build</div>
         <div id="print-sign" class="print template-{{fullTemplate.slug}} theme-{{theme}}">
             <div ng-include="previewerhtml"></div>
         </div>

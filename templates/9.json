@@ -1,0 +1,19 @@
+ {
+    "id": "9",
+    "slug":"8511d",
+    "name":"8.5 x 11 Attention",
+    "description": "8.5 in. by 11 in. sign for general customer information.",
+    "width":"8.5",
+    "height":"11",
+    "themes": [
+        {"id":"TDS"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"Use this paragraph of copy to explain information that benefits the customer. These types of signs are meant for temporary use only. Please use only in circumstances where a team member is unable to communicate to the customer. Please use language that is customer friendly. Do not use all caps or multiple explanation points."
+        }
+    ]
+}

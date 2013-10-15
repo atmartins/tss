@@ -74,7 +74,10 @@ function BuildCtrl($scope, Template) {
         //Bonus points, this url will be book-markable
         //Make a print button on that page with this:
         $scope.printState = 'print';
-        //window.print()
+        setTimeout( function(){
+            window.print();
+        }, 1000 );
+        
     }
 }
 

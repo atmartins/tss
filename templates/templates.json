@@ -48,14 +48,6 @@
         "size":18.375,
         "thumbnail":"/img/layout/35525b_thumbnail.png"
     },{
-        "id": 6,
-        "slug":"35525b",
-        "name":"5.25x3.5",
-        "description": "5.25 in. by 3.5 in. with name and price",
-        "keywords": "name, landscape, sideways, horizontal",
-        "size":18.375,
-        "thumbnail":"/img/layout/35525b_thumbnail.png"
-    },{
         "id": 7,
         "slug":"117c",
         "name":"11x7 (trim) Sale",
@@ -71,5 +63,13 @@
         "keywords": "name, description, portrait, up, vertical, sale",
         "size":93.5,
         "thumbnail":"/img/layout/8511c_thumbnail.png"
+    },{
+        "id": 9,
+        "slug":"8511d",
+        "name":"8.5x11 Attention",
+        "description": "8.5 in. by 11 in. sign for general customer information.",
+        "keywords": "attention, customer, customers, description, portrait, up, vertical",
+        "size":93.5,
+        "thumbnail":"/img/layout/8511d_thumbnail.png"
     }
 ]
