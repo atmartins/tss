@@ -2,55 +2,63 @@
 
 /* 8511a */
 #thumbnail.template-8511a {
-    top: -374px;
-    left: -264px;
+    top: -356px;
+    left: -246px;
 }
 
 .template-8511a {
-    width: 850px;
-    height: 1100px;
-    width: 8.5in;
-    height: 11in;
+    width: 740px;
+    height: 990px;
+    width: 7.2in;
+    height: 9.49in;
     overflow: hidden;
+}
+
+/* emulate printer margin (approx .5 inches) */
+#thumbnail.template-8511a,
+#review.template-8511a {
+    background-color:white;
+    padding: 55px 40px;
 }
 
 .template-8511a .heading {
     font-weight: bold;
-    font-size: 159px;
-    line-height: 151px;
-    top: 48px;
+    font-size: 144px;
+    line-height: 137px;
+    top: 22px;
     letter-spacing: -4px;
-    left: 26px;
-    width: 763px;
+    left: 0px;
+    width: 690px;
 }
 .template-8511a .description {
-    font-size: 54px;
+    font-size: 46px;
     font-style: italic;
     font-weight: bold;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     line-height: 70px;
-    top: 361px;
-    left: 25px;
-    width: 765px;
+    top: 301px;
+    left: 0px;
+    width: 690px;
 }
 .template-8511a .price {
-    font-size: 190px;
+    font-size: 173px;
     font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 60px;
-    top: 530px;
-    left: 20px;
+    letter-spacing: -1px;
+    line-height: 61px;
+    top: 451px;
+    left: 0px;
+    width: 690px;
 }
 .template-8511a .price .dollar-sign { vertical-align: top }
 .template-8511a .price .dollar-amt {
-    font-size: 340px;
-    line-height: 193px;
+    font-size: 294px;
+    line-height: 179px;
 }
 .template-8511a .price .decimal { display: none }
 .template-8511a .price .cents-amt { vertical-align: top }
 .template-8511a .disclaimer {
-    top: 850px;
-    left: 232px;
+    top: 744px;
+    left: 189px;
     font-style: italic;
     color: black;
 }
@@ -58,38 +66,40 @@
 
 /* 8511b */
 #thumbnail.template-8511b {
-    top: -276px;
-    left: -407px;
+    top: -256px;
+    left: -367px;
 }
 .template-8511b {
     color:white;
-    width: 1100px;
-    height: 850px;
+    width: 980px;
+    height: 739px;
+    width: 9.8in;
+    height: 7.39in;
     overflow: hidden;
 }
-@media print {
-    .template-8511b {
-        width: 11in;
-        height: 8.5in;
-    }   
+/* emulate printer margin (approx .5 inches) */
+#thumbnail.template-8511b,
+#review.template-8511b {
+    background-color:white;
+    padding: 55px 40px;
 }
 .template-8511b .heading {
     font-weight: bold;
-    font-size: 165px;
-    line-height: 157px;
-    top: 79px;
+    font-size: 152px;
+    line-height: 141px;
+    top: 45px;
     letter-spacing: -4px;
-    left: 60px;
-    width: 980px;
+    left: 22px;
+    width: 893px;
 }
 .template-8511b .description {
-    font-size: 56px;
+    font-size: 50px;
     font-style: italic;
     font-weight: bold;
     letter-spacing: -3px;
     line-height: 60px;
-    top: 457px;
-    left: 27px;
+    top: 384px;
+    left: 23px;
 }
 
 /* 117b */

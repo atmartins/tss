@@ -144,7 +144,8 @@ a.list-item {
 #step-review {
     min-height: 20px;
 }
-@media print { 
+@media print {
+    #content {padding:0;margin:0;}
     .no-print { display: none }
     #print-sign {
         display:block;

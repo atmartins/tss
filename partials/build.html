@@ -2,15 +2,16 @@
     <div ng-switch-when="build">
         
         <div id="header">
-            <h1>Template Sign System</h1>
+            <h1>The Duck Store Template Sign System</h1>
             <ul id="nav">
                 <li><a href="/">Home</a></li>
             </ul>
+            <p>Supported browsers: Google Chrome and Mozilla Firefox.</p>
         </div>
 
         <div id="build">   
             <div id="hud" ng-show="show.hud">
-                <h4>Preview</h4>
+                <h4>Live Preview</h4>
                 <div id="thumbnail" class="template-{{fullTemplate.slug}} theme-{{theme}}" >
                     <div ng-include="previewerhtml"></div>
                 </div><!-- /#thumbnail -->
@@ -34,6 +35,7 @@
                             <img ng-src="{{template.thumbnail}}" class="template-image" />
                             <div class="template-name">{{template.name}}</div>
                             <div class="template-description">{{template.description}}</div>
+                            <div class="template-slug">{{template.slug}}</div>
                         </div>
                     </li>
                 </ul>
