@@ -142,7 +142,7 @@ a.list-item {
     /* margin-top:-200px; */
 }
 #step-review {
-    overflow: hidden;
+    min-height: 20px;
 }
 @media print { 
     .no-print { display: none }
