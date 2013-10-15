@@ -19,6 +19,7 @@ function BuildCtrl($scope, Template) {
     
     $scope.setTheme = function (theme) {
         $scope.theme = theme;
+        console.log('setting theme to '+theme);
     }
    
 
@@ -84,7 +85,7 @@ function BuildCtrl($scope, Template) {
                 console.log('portrait orientation');
             }
             setTimeout( function(){
-                window.print();
+                //window.print();
             }, 1000 );
         }        
     }

@@ -3,9 +3,6 @@ angular.module('tssDirectives', ['ngResource'])
     .directive('switchtheme', function () {
         return function (scope, element, attrs) {
             element.bind("click", function () {
-                scope.$apply(function () {
-                    scope.setTheme(attrs.theme);
-                });
                 element.parent().children().removeClass("active");
                 element.addClass('active');
             })
