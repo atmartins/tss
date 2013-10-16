@@ -1,4 +1,4 @@
-<div ng-switch="printState">
+<div ng-switch="applicationState">
     <div ng-switch-when="build">
         
         <div id="header">
@@ -8,10 +8,10 @@
             <ul id="nav">
                 <li><a href="/">Home</a></li>
             </ul>
-            -->
+            
             <div id="help">
                 <p>Supported browsers: Google Chrome and Mozilla Firefox.</p>
-            </div>    
+            </div>  -->  
         </div>
 
         <div id="build">   
@@ -24,21 +24,24 @@
 
             <div id="step-template-choice" class="step">
                 <h3>1. Choose a Template:</h3>
-                <!--
-                  Sort list (type what you want, like "price" or "horizontal"): <input ng-model="query">
-                  Sort list by:
+                <div>
+                Filter list: <input ng-model="query"><span class="help">type what you want, like "price" or "horizontal"</span>
+                </div>
+                <div>
+                  Sort list:
                   <select ng-model="orderProp">
                     <option value="size">Size</option>
                     <option value="id">ID</option>
                   </select>
-                  -->
+                </div>
                 <ul class="templates">
-                    <li ng-repeat="template in templates | filter:query | orderBy:templateOrder" class="list btn">
+                    <li ng-repeat="template in templates | filter:query | orderBy:orderProp" class="list btn">
                         <div switchtemplate ng-click="setTemplate(template)" >
                             <img ng-src="{{template.thumbnail}}" class="template-image" />
                             <div class="template-name">{{template.name}}</div>
                             <div class="template-description">{{template.description}}</div>
                             <div class="template-slug">{{template.slug}}</div>
+                            <div class="template-id">ID: {{template.id}}</div>
                         </div>
                     </li>
                 </ul>
@@ -85,5 +88,5 @@
             <div ng-include="previewerhtml"></div>
         </div>
     </div><!-- /ng-switch-when="print" -->
-</div><!-- /ng-switch="printState" -->
+</div><!-- /ng-switch="applicationState" -->
 <!-- /#print -->

@@ -1,29 +1,41 @@
 'use strict';
 
 function BuildCtrl($scope, Template) {
+    //Get our list of templates (including thumbnail images, etc)
     $scope.templates = Template.query();
+    
+    //default order of templates
+    $scope.templateOrder = 'id';
 
-    $scope.templateOrder = 'id'; //default order of templates
-    $scope.theme = 'none'; //default
+    //default theme choice. User will change this value later
+    $scope.theme = 'none'; 
     
+    //path to our primary "include"
+    //we use this included HTML multiple times, so it was isolated 
+    //in a separate file for efficient reuse.
     $scope.previewerhtml = '/partials/previewer.html';
-    $scope.printState = 'build';
+
+    //the application state
+    $scope.applicationState = 'build';
     
+    //Current state of certain "hide-able" elements in the page
     $scope.show = {
-        hud: true,
-        print: false
+        hud: true //the hud can be toggled on/off
     };  
     
+    //Create a blank template object to avoid potential property access errors
+    //This is populated after user makes a template choice
     $scope.template = {};
+
     //Let this scope know which theme was selected by user.
-    
+    //@param (string) theme slug
     $scope.setTheme = function (theme) {
         $scope.theme = theme;
-        console.log('setting theme to '+theme);
     }
    
 
     //Let this scope know which template was selected by user.
+    //@param (object) template object
     $scope.setTemplate = function (template) {
         $scope.template = template;
         $scope.fullTemplate = Template.get({
@@ -39,53 +51,53 @@ function BuildCtrl($scope, Template) {
         });
     }
 
+    //check if the field object is of type "currency"
+    //@param (object) field object
     $scope.isCurrency = function (field) {
         return (field.type === "currency");
     }
-
+    
+    //check if the field object is of type "text"
+    //@param (object) field object
     $scope.isText = function (field) {
         return (field.type === "text");
     }
-
+    
+    //check if the field object is of type "disclaimer"
+    //@param (object) field object
     $scope.isDisclaimer = function (field) {
         return (field.type === "disclaimer");
     }
 
-    //Return the appropriate path for medium resolution template image
+    //Return the appropriate path for a template image
+    //@param (string) size
     $scope.getSrc = function (size) {
         if($scope.template.slug && $scope.theme){
             return '/img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
         } else {
             return '';
         }
-        //return ;
     }
 
+    //Change application state to "build"
     $scope.build = function () {
-        console.log('Building');
-       
-        //Bonus points, this url will be book-markable
-        //Make a print button on that page with this:
-        $scope.printState = 'build';
-        //window.print()
+        $scope.applicationState = 'build';
     }
-    $scope.print = function () {
-        console.log('Printing');
-       
+
+    //Change application state to "print"
+    //Trigger window print event
+    $scope.print = function () {       
         if($scope.theme == 'none'){
+            //We require a theme
             alert('Please choose a theme (step 2)');
         } else {
             //show appropriate content
-            $scope.printState = 'print';
-            
+            $scope.applicationState = 'print';
             if( parseFloat($scope.fullTemplate.width) > parseFloat($scope.fullTemplate.height) ){
-                console.log('landscape orientation');
                 alert('Remember to change print layout setting to landscape!');
-            } else {
-                console.log('portrait orientation');
             }
             setTimeout( function(){
-                //window.print();
+                window.print();
             }, 1000 );
         }        
     }

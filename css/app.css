@@ -1,111 +1,147 @@
 /* app css stylesheet */
 #header {
-    margin: 0 20px;
+    margin: 0 20px
 }
 #header h1 {
-    margin: 20px 0;
+    margin: 20px 0
 }
 ul {
     margin: 0;
     padding: 0;
 }
-body { padding-top: 20px }
-#content { padding: 20px }
-
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
+#content {
+    padding: 20px
+}
 .step {
     clear: both;
     margin: 20px;
     padding: 10px;
 }
-/*
- HUD
+
+/**
+ * HUD
  */
 #hud {
-    position: fixed;
-    top: 20px;
-    right: -20px;
     background: white;
-    box-shadow: 6px 5px 18px #bbb;
     background: #EEE;
-    z-index: 100;
-    width: 280px;
-    height: 270px;
-    padding: 10px;
     border: 1px solid #FFF;
     border-radius: 5px;
+    box-shadow: 6px 5px 18px #bbb;
+    height: 270px;
+    padding: 10px;
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 280px;
+    z-index: 100;
 }
 #hud h4 {
-    text-align: center;
     padding-right: 20px;
+    text-align: center;
 }
 
-/*
- Choose a Template
- Template or Sign list views
+/**
+ * Choose a Template
+ * Template or Sign list views
  */
-#step-template-choice { max-width: 850px; margin-right: 200px;}
-#build #step-template-choice .active { border: 1px solid lightblue; box-shadow: 0 0 20px lightblue;}
+ #step-template-choice .help {
+    color: #aaa;
+    margin-left: 10px;
+}
+#step-template-choice {
+    margin-right: 200px;
+    max-width: 850px;
+}
+#build #step-template-choice .active {
+    border: 1px solid lightblue;
+    box-shadow: 0 0 20px lightblue;
+}
 #build #step-template-choice .switchtemplate {
-    display: block;
-    height: 140px;
-    width: 200px;
     cursor: pointer;
+    display: block;
+    height: 200px;
     padding: 20px;
+    position: relative;
+    width: 200px;
 }
 a.list-item {
-    display: block;
-    padding: 10px;
     clear: both;
+    display: block;
     min-height: 100px;
+    padding: 10px;
 }
 .list {
     border: 1px solid #ccc;
-    list-style: none;
-    margin: 10px;
     display: inline-block;
     float: left;
+    list-style: none;
+    margin: 10px;
     text-align: left;
 }
 .list img {
-    float: right;
     box-shadow: 1px 1px 10px #ccc;
+    float: right;
     margin: 0 0 10px 10px;
 }
-.template-name.ng-binding {
-    font-weight: bold;
-    font-size: 17px;
+.template-name {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 10px;
 }
 .template-description {
-    color: #666;
+    color: #666
 }
-
-/*
- Choose a theme step
+.template-id {
+    font-size: 30px;
+    bottom: 8px;
+    position: absolute;
+    left: 0;
+    color: #ccc;
+}
+.template-slug {
+    font-size: 20px;
+    bottom: 5px;
+    position: absolute;
+    right: 0;
+    color: #ccc;
+}
+/**
+ * Choose a theme step
  */
- #step-theme-choice ul {
-    margin-top: 20px;
+#step-theme-choice ul {
+    margin-top: 20px
 }
 #step-theme-choice li {
-    list-style: none;
-    display: inline;
-    margin: 10px;
     cursor: pointer;
+    display: inline;
+    list-style: none;
+    margin: 10px;
 }
 #build #step-theme-choice .active {
+    border: 1px solid lightblue;
+    box-shadow: 0 0 20px lightblue;
     font-weight: bold;
-    border: 1px solid lightblue; box-shadow: 0 0 20px lightblue;
 }
 
-/* Edit Text step */
+/**
+ * Edit Text step
+ */
 #step-edit-text li {
-    list-style: none;
+    list-style: none
 }
 #step-edit-text label {
-    text-transform: capitalize;
     list-style: none;
+    text-transform: capitalize;
 }
+
 /* Template Preview/Review/Hud thumbnail */
-.field { width: 95% }
+.field {
+    width: 95%
+}
 .heading {
     text-align: center;
     width: 100%;
@@ -119,58 +155,64 @@ a.list-item {
     width: 100%;
 }
 .template {
+    box-shadow: 1px 1px 10px #ccc;
     font-family: 'Open Sans', sans-serif;
     position: relative;
-    box-shadow: 1px 1px 10px #ccc;
 }
-.template div { position: absolute }
-.template img { position: absolute }
-
-
-
+.template div {
+    position: absolute
+}
+.template img {
+    position: absolute
+}
 #thumbnail {
+    -moz-transform: scale(0.2);
+    -ms-transform: scale(0.2);
+    -o-transform: scale(0.2);
+    -webkit-transform: scale(0.2);
     box-shadow: 0 0 70px #aaa;
     position: absolute;
-    -webkit-transform: scale(0.2);
-    -moz-transform: scale(0.2);
-    -o-transform: scale(0.2);
-    -ms-transform: scale(0.2);
 }
 #review {
-    margin: -100px;
-    box-shadow: 0 0 50px #666;
-    -webkit-transform: scale(0.7);
     -moz-transform: scale(0.7);
-    -o-transform: scale(0.7);
     -ms-transform: scale(0.7);
-}
-#review .previewerhtml {
-    /* margin-top:-200px; */
+    -o-transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    box-shadow: 0 0 50px #666;
+    margin: -100px;
 }
 #step-review {
-    min-height: 20px;
+    min-height: 20px
 }
+
+/* Print */
 #step-print h3 {
     float: left;
     margin-right: 20px;
 }
-@media print {
-    #content {padding:0;margin:0;}
-    .no-print { display: none }
-    #print-sign {
-        display:block;
+@media print { 
+    #content {
+        margin: 0;
         padding: 0;
+    }
+    .no-print {
+        display: none
+    }
+    #print-sign {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
         -webkit-print-color-adjust: exact;
         -webkit-transform: scale(1);
-        -moz-transform: scale(1);
-        -o-transform: scale(1);
-        -ms-transform: scale(1);
-        /* border:1px solid green; */
+        display: block;
+        padding: 0;
     }
     html,
     body {
-        padding: 0;
         margin: 0;
+        padding: 0;
     }
 }
-#return-to-build-btn {margin: 0 0 20px;}
+#return-to-build-btn {
+    margin: 0 0 20px
+}
