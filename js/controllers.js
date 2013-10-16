@@ -3,10 +3,15 @@
 function BuildCtrl($scope, Template) {
     $scope.templates = Template.query();
 
+    $scope.drawIt = function(){
+   
+    }
+    
+
     $scope.templateOrder = 'id'; //default order of templates
     $scope.theme = 'none'; //default
     
-    $scope.previewerhtml = '/partials/previewer.html';
+    $scope.previewerhtml = 'partials/previewer.html';
     $scope.printState = 'build';
     
     $scope.show = {
@@ -54,7 +59,7 @@ function BuildCtrl($scope, Template) {
     //Return the appropriate path for medium resolution template image
     $scope.getSrc = function (size) {
         if($scope.template.slug && $scope.theme){
-            return '/img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
+            return 'img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
         } else {
             return '';
         }
@@ -75,7 +80,16 @@ function BuildCtrl($scope, Template) {
         if($scope.theme == 'none'){
             alert('Please choose a theme (step 2)');
         } else {
+            
+            html2canvas([document.getElementById('review')], {
+                onrendered: function(canvas) {
+                   document.body.appendChild(canvas);
+                   $scope.printimg = canvas.toDataURL('image/png');
+                   // AJAX call to send `data` to a PHP file that creates an image from the dataURI string and saves it to a directory on the server
+                }
+            });
             //show appropriate content
+            /*
             $scope.printState = 'print';
             
             if( parseFloat($scope.fullTemplate.width) > parseFloat($scope.fullTemplate.height) ){
@@ -87,6 +101,7 @@ function BuildCtrl($scope, Template) {
             setTimeout( function(){
                 //window.print();
             }, 1000 );
+*/
         }        
     }
 }

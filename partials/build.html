@@ -2,7 +2,7 @@
     <div ng-switch-when="build">
         
         <div id="header">
-            <img src="/img/layout/TheDuckStore_logo_green_499x76.png" />
+            <img src="img/layout/TheDuckStore_logo_green_499x76.png" />
             <h1>Template Sign System</h1>
             <!--
             <ul id="nav">
@@ -18,7 +18,7 @@
             <div id="hud" ng-show="show.hud">
                 <h4>Live Preview</h4>
                 <div id="thumbnail" class="template-{{fullTemplate.slug}} theme-{{theme}}" >
-                    <div ng-include="previewerhtml"></div>
+                    <div ng-include="previewerhtml"></div>                     
                 </div><!-- /#thumbnail -->
             </div><!-- /#hud -->
 
@@ -69,6 +69,12 @@
                 </div>
             </div><!-- /#step-review -->
 
+<div class="btn" ng-click="drawIt()">Draw</div>
+
+<canvas id="myCanvas" width="250" height="300" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+ <img ng-src="{{printimg}}" />
+
             <div id="step-print" class="step">           
                 <h3>5. Print:</h3>
                 <div class="btn" ng-click="print()">
@@ -82,7 +88,8 @@
     <div ng-switch-when="print">
         <div class="btn no-print" id="return-to-build-btn" ng-click="build()">Return to build</div>
         <div id="print-sign" class="print template-{{fullTemplate.slug}} theme-{{theme}}">
-            <div ng-include="previewerhtml"></div>
+            <!-- <div ng-include="previewerhtml"></div> -->
+           
         </div>
     </div><!-- /ng-switch-when="print" -->
 </div><!-- /ng-switch="printState" -->
