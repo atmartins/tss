@@ -81,7 +81,7 @@
     left: -367px;
 }
 .template-8511b {
-    color:white !important;
+    color:white;
     width: 980px;
     height: 739px;
     width: 9.8in;
@@ -121,7 +121,7 @@
     left: -367px;
 }
 .template-117b {
-    color:white !important;
+    color:white;
     width: 980px;
     height: 739px;
     width: 9.8in;
@@ -218,7 +218,7 @@
 }
 #review.template-35525a {margin: 0;}
 .template-35525a {
-    color:white !important;
+    color:white;
     width: 350px;
     height: 525px;
     width: 3.50in;
@@ -257,7 +257,7 @@
 }
 #review.template-35525b {margin: 0;}
 .template-35525b {
-    color:white !important;
+    color:white;
     width: 525px;
     height: 350px;
     width: 5.25in;
@@ -301,7 +301,7 @@
     left: -367px;
 }
 .template-117c {
-    color:white !important;
+    color:white;
     width: 980px;
     height: 739px;
     width: 9.8in;
@@ -350,7 +350,7 @@
 }
 
 .template-8511c {
-    color: white !important;
+    color: white;
     width: 740px;
     height: 990px;
     width: 7.2in;
@@ -446,7 +446,7 @@
 }
 
 .template-8511d {
-    color: white !important;
+    color: white;
     width: 740px;
     height: 990px;
     width: 7.2in;
@@ -468,8 +468,4 @@
     left: 30px;
     width: 630px;
     letter-spacing: 0;
-}
-
-#print-sign.template-8511b .field .heading {
-    color: hsla(0, 0%, 100%, 1);
 }

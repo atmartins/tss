@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
 }
-body { padding-top: 20px; }
+body { padding-top: 20px }
 #content { padding: 20px }
 
 .step {
@@ -75,11 +75,10 @@ a.list-item {
     font-weight: bold;
     font-size: 17px;
 }
-/*
 .template-description {
     color: #666;
 }
-*/
+
 /*
  Choose a theme step
  */
@@ -126,6 +125,8 @@ a.list-item {
 }
 .template div { position: absolute }
 .template img { position: absolute }
+
+
 
 #thumbnail {
     box-shadow: 0 0 70px #aaa;
