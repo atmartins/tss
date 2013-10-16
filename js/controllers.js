@@ -13,7 +13,7 @@ function BuildCtrl($scope, Template) {
     //path to our primary "include"
     //we use this included HTML multiple times, so it was isolated 
     //in a separate file for efficient reuse.
-    $scope.previewerhtml = '/partials/previewer.html';
+    $scope.previewerhtml = 'partials/previewer.html';
 
     //the application state
     $scope.applicationState = 'build';
@@ -73,7 +73,7 @@ function BuildCtrl($scope, Template) {
     //@param (string) size
     $scope.getSrc = function (size) {
         if($scope.template.slug && $scope.theme){
-            return '/img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
+            return 'img/'+$scope.template.slug+'/'+size+'/'+$scope.theme+'.png';
         } else {
             return '';
         }
