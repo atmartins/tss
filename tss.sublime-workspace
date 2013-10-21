@@ -131,70 +131,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 836,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/app.js",
-			"settings":
-			{
-				"buffer_size": 518,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/controllers.js",
-			"settings":
-			{
-				"buffer_size": 3698,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/directives.js",
-			"settings":
-			{
-				"buffer_size": 702,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/app.css",
-			"settings":
-			{
-				"buffer_size": 3693,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/templates.css",
-			"settings":
-			{
-				"buffer_size": 9177,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "partials/build.html",
-			"settings":
-			{
-				"buffer_size": 3977,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/templates.json",
-			"settings":
-			{
-				"buffer_size": 2922,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -283,19 +219,22 @@
 	},
 	"file_history":
 	[
-		"/C/wamp/www/tss/partials/previewer.html",
+		"/C/wamp/www/lou/6-tab-slideshow/src/6-tab-slideshow.js",
+		"/C/Users/aaronm/AppData/Local/Temp/scp44425/home/uoducks/mobile_public_html/site/wp-content/themes/theduckstore/index.php",
 		"/C/wamp/www/tss/css/templates.css",
 		"/C/wamp/www/tss/css/app.css",
+		"/C/wamp/www/tss/js/directives.js",
+		"/C/wamp/www/tss/js/app.js",
 		"/C/wamp/www/tss/index.html",
 		"/C/wamp/www/tss/partials/build.html",
+		"/C/wamp/www/tss/partials/previewer.html",
 		"/C/wamp/www/tss/js/controllers.js",
+		"/C/wamp/www/tss/templates/templates.json",
+		"/C/Users/aaronm/AppData/Local/Temp/scp30798/home/uoducks/public_html/tools/tss/1.1/templates/templates.json",
 		"/C/wamp/www/tss/templates/1.json",
-		"/C/wamp/www/tss/js/app.js",
 		"/C/wamp/www/tss/templates/2.json",
 		"/C/wamp/www/tss/js/services.js",
-		"/C/wamp/www/tss/templates/templates.json",
 		"/C/wamp/www/tss/templates/9.json",
-		"/C/wamp/www/tss/js/directives.js",
 		"/C/wamp/www/tss/templates/6.json",
 		"/C/wamp/www/tss/templates/7.json",
 		"/C/wamp/www/tss/templates/8.json",
@@ -334,7 +273,6 @@
 		"/C/Users/aaronm/Desktop/getVolusionCat.html",
 		"/C/Users/aaronm/Desktop/board/temp.html",
 		"/C/Users/aaronm/Desktop/temp.html",
-		"/C/wamp/www/lou/6-tab-slideshow/src/6-tab-slideshow.js",
 		"/C/Users/aaronm/Downloads/FacebookSubscribeCode.html",
 		"/C/Users/aaronm/Desktop/randomloadimage_mbs_literary.js",
 		"/C/Users/aaronm/Dropbox/SharedShaneAaron/CasusJS/Game.js",
@@ -408,9 +346,7 @@
 		"/C/wamp/www/lou/volusionOutput.xml",
 		"/C/wamp/www/lou/index.php",
 		"/C/wamp/www/lou/listrakTarget.csv",
-		"/C/wamp/www/lou/orders.txt",
-		"/C/Users/aaronm/Desktop/Volusion to Listrak Order Updater/volusionOutputSmall.xml",
-		"/C/Users/aaronm/Downloads/php-mobile-redirect.1.4/php-mobile-redirect/includes/functions.php"
+		"/C/wamp/www/lou/orders.txt"
 	],
 	"find":
 	{
@@ -430,6 +366,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"_m2",
+			"/img",
 			"application",
 			"printState",
 			"scope.printState",
@@ -522,237 +460,8 @@
 	"groups":
 	[
 		{
-			"selected": 6,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 836,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 518,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "js/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3698,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3578,
-								3578
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1762.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "js/directives.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 702,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								614,
-								614
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "css/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								825,
-								825
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 697.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/templates.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9177,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6944,
-								6944
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 6644.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "partials/build.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3977,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								324,
-								324
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/templates.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2284,
-								2284
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
