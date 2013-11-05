@@ -506,3 +506,124 @@
     background-color: white;
     padding: 55px 40px;
 }
+
+
+/**
+ * 8511e 
+ */
+#thumbnail.template-8511e {
+    left: -367px;
+    top: -256px;
+}
+.template-8511e {
+    color: white;
+    height: 739px;
+    height: 7.39in;
+    overflow: hidden;
+    width: 980px;
+    width: 9.8in;
+}
+.template-8511e .description {
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    left: 23px;
+    letter-spacing: -3px;
+    line-height: 60px;
+    top: 167px;
+}
+.template-8511e .heading {
+    font-size: 120px;
+    font-weight: bold;
+    left: 22px;
+    letter-spacing: -4px;
+    line-height: 141px;
+    top: 27px;
+    width: 893px;
+}
+.template-8511e .disclaimer {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    left: 210px;
+    text-align: left;
+    top: 552px;
+    width: 709px;
+}
+.template-8511e .price {
+    font-size: 172px;
+    font-weight: bold;
+    left: 0;
+    letter-spacing: -1px;
+    line-height: 44px;
+    top: 306px;
+    width: 941px;
+}
+.template-8511e .price .dollar-sign {
+    vertical-align: top
+}
+.template-8511e .price .dollar-amt {
+    font-size: 300px;
+    line-height: 169px;
+}
+.template-8511e .price .cents-amt {
+    vertical-align: top
+}
+.template-8511e .price .decimal {
+    display: none
+}
+/* emulate printer margin (approx .5 inches) */
+#thumbnail.template-8511e,
+#review.template-8511e {
+    background-color: white;
+    padding: 55px 40px;
+}
+
+
+/**
+ * 8511f
+ */
+#thumbnail.template-8511f {
+    left: -367px;
+    top: -256px;
+}
+.template-8511f {
+    color: white;
+    height: 739px;
+    height: 7.39in;
+    overflow: hidden;
+    width: 980px;
+    width: 9.8in;
+}
+.template-8511f .description {
+    font-size: 180px;
+    font-weight: bold;
+    left: 0px;
+    letter-spacing: -3px;
+    line-height: 60px;
+    top: 385px;
+    width: 940px;
+}
+.template-8511f .disclaimer {
+    font-size: 20px;
+    font-weight: bold;
+    left: 20px;
+    text-align: center;
+    top: 646px;
+    width: 900px;
+}
+.template-8511f .heading {
+    font-size: 66px;
+    font-weight: bold;
+    left: 0px;
+    letter-spacing: -4px;
+    line-height: 157px;
+    top: 198px;
+    width: 941px;
+}
+/* emulate printer margin (approx .5 inches) */
+#thumbnail.template-8511f,
+#review.template-8511f {
+    background-color: white;
+    padding: 55px 40px;
+}

@@ -1,0 +1,40 @@
+ {
+    "id": "10",
+    "slug":"8511e",
+    "name":"11 x 8.5",
+    "description": "11 by 8.5 inch horizontal sign.",
+    "width":"11",
+    "height":"8.5",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Product Name"                        
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"Product description if needed"
+        },{
+            "type": "currency",
+            "class":"price",
+            "id":"price",
+            "value":"0.00"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Product disclaimer if needed"
+        }
+    ]
+}

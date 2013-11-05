@@ -3,73 +3,89 @@
         "id": 1,
         "slug":"8511a",
         "name":"8.5 x 11",
-        "description": "8.5 in. by 11 in. with name, description and price.",
-        "keywords": "name, description, price, portrait, up, tall, vertical",
+        "description": "Price Point Sign. To be used to display a specific product with its price. Not to be used for sale items.",
+        "keywords": "8.5 x 11, 8.5x11, price point, name, description, price, portrait, up, tall, vertical",
         "size":93.5,
         "thumbnail":"img/layout/8511a_thumbnail.png"
     },{
         "id": 2,
         "slug":"8511b",
         "name":"11 x 8.5",
-        "description": "11 by 8.5 inch horizontal sign with name and description.",
-        "keywords": "name, description, landscape, sideways, horizontal",
+        "description": "Product sign. Can be used to call out a specific product or a product category. Not to be used for a sale items or price point signs.",
+        "keywords": "11 x 8.5, 11x8.5, product, name, description, landscape, sideways, horizontal",
         "size":93.5,
         "thumbnail":"img/layout/117a_thumbnail.png"
     },{
         "id": 3,
         "slug":"117b",
         "name":"11 x 7 (trim)",
-        "description": "11 in. by 7 in. with name, description and a dashed line to trim at.",
-        "keywords": "name, description, landscape, sideways, horizontal, trim, cut, dashed, line",
+        "description": "Product Sign. Can be used to call out a specific product or a product category. Requires trimming. Not to be used for a sale items or price point signs.",
+        "keywords": "11 x 7, 11x7, product, name, description, landscape, sideways, horizontal, trim, cut, dashed, line",
         "size":77,
         "thumbnail":"img/layout/117b_thumbnail.png"
     },{
         "id": 4,
         "slug":"57a",
         "name":"5 x 7",
-        "description": "5 in. by 7 in. with name, description and price.",
-        "keywords": "name, description, price, portrait, up, tall, vertical",
+        "description": "Price Point Sign. To be used to display a specific product with their price. Not to be used for sale.",
+        "keywords": "5 x 7, 5x7, price point, name, description, price, portrait, up, tall, vertical",
         "size":35,
         "thumbnail":"img/layout/57a_thumbnail.png"
     },{
         "id": 5,
         "slug":"35525a",
         "name":"3.5 x 5.25",
-        "description": "3.5 in. by 5.25 in. with name and description",
-        "keywords": "name, description, portrait, up, tall, vertical",
+        "description": "Product Sign. Can be used to call out a specific product or a product category. Not to be used for a sale items or price point signs.",
+        "keywords": "3.5 x 5.25, 3.5x5.25, product, name, description, portrait, up, tall, vertical",
         "size":18.375,
         "thumbnail":"img/layout/35525a_thumbnail.png"
     },{
         "id": 6,
         "slug":"35525b",
         "name":"5.25 x 3.5",
-        "description": "5.25 in. by 3.5 in. with name and price",
-        "keywords": "name, price, landscape, sideways, horizontal",
+        "description": "Product Sign. Can be used to call out a specific product or a product category. Not to be used for a sale items or price point signs.",
+        "keywords": "5.25 x 3.5, 5.25x3.5, product, name, price, landscape, sideways, horizontal",
         "size":18.375,
         "thumbnail":"img/layout/35525b_thumbnail.png"
     },{
         "id": 7,
         "slug":"117c",
         "name":"11 x 7 (trim) Sale",
-        "description": "11 in. by 7 in. with name, percent off and disclaimer.",
-        "keywords": "name, description, percent, red, sale, landscape, sideways, horizontal, trim, cut, dashed, line",
+        "description": "Percent OFF Sale Sign. Used for a Sale that includes a percentage off. Requires trimming. Not to be used for regularly priced items.",
+        "keywords": "11 x 7, 11x7, name, description, percent, red, sale, landscape, sideways, horizontal, trim, cut, dashed, line",
         "size":77,
         "thumbnail":"img/layout/117c_thumbnail.png"
     },{
         "id": 8,
         "slug":"8511c",
         "name":"8.5 x 11 Sale",
-        "description": "8.5 in. by 11 in. sale sign with product name, description, sale price and regular price.",
-        "keywords": "name, description, red, sale, regular, price, two, portrait, up, vertical",
+        "description": "New Price Sale Item Sign. Used for a Sale that advertises a new price. Not to be used for regular priced items.",
+        "keywords": "8.5 x 11, 8.5x11, name, description, red, sale, item, price, two, portrait, up, vertical",
         "size":93.5,
         "thumbnail":"img/layout/8511c_thumbnail.png"
     },{
         "id": 9,
         "slug":"8511d",
         "name":"8.5 x 11 Attention",
-        "description": "8.5 in. by 11 in. sign for general customer information.",
-        "keywords": "attention, customer, green, customers, description, portrait, up, vertical",
+        "description": "Temporary Customer Service Sign. To be used to communicate a customer friendly message.",
+        "keywords": "8.5 x 11, 8.5x11, temporary, attention, customer, customer service, green, customers, description, portrait, up, vertical",
         "size":93.5,
         "thumbnail":"img/layout/8511d_thumbnail.png"
+    },{
+        "id": 10,
+        "slug":"8511e",
+        "name":"11 x 8.5",
+        "description": "",
+        "keywords": "11 x 8.5, 11x8.5, product, name, price, description, disclaimer, landscape, sideways, horizontal",
+        "size":93.5,
+        "thumbnail":"img/layout/8511e_thumbnail.png"
+    },{
+        "id": 11,
+        "slug":"8511f",
+        "name":"11 x 8.5 Sale",
+        "description": "",
+        "keywords": "11 x 8.5, 11x8.5, name, description, percent, red, sale, landscape, sideways, horizontal",
+        "size":93.5,
+        "thumbnail":"img/layout/8511f_thumbnail.png"
     }
 ]

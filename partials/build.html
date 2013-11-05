@@ -25,13 +25,14 @@
             <div id="step-template-choice" class="step">
                 <h3>1. Choose a Template:</h3>
                 <div>
-                Filter list: <input ng-model="query"><span class="help">type what you want, like "price" or "horizontal"</span>
+                Filter list: <input ng-model="query.keywords"><span class="help">type what you want, like "price point", "horizontal" or "8.5 x 11"</span>
                 </div>
                 <div>
                   Sort list:
                   <select ng-model="orderProp">
                     <option value="size">Size</option>
                     <option value="id">ID</option>
+                    <option value="slug">Slug</option>
                   </select>
                 </div>
                 <ul class="templates">

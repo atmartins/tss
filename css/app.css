@@ -53,8 +53,7 @@ body {
     margin-left: 10px;
 }
 #step-template-choice {
-    margin-right: 200px;
-    max-width: 850px;
+    margin-right: 310px;
 }
 #build #step-template-choice .active {
     border: 1px solid lightblue;

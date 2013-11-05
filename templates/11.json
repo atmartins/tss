@@ -1,0 +1,35 @@
+ {
+    "id": "11",
+    "slug":"8511f",
+    "name":"8.5 x 11",
+    "description": "",
+    "width":"11",
+    "height":"8.5",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Product Name or Sale Items"                        
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"00% OFF"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Disclaimer copy if needed"
+        }
+    ]
+}
