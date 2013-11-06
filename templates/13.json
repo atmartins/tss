@@ -1,0 +1,38 @@
+ {
+    "id": "13",
+    "slug":"57c",
+    "name":"7 x 5",
+    "description": "",
+    "width":"7",
+    "height":"5",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Product Name"                        
+        },{
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"Product description if needed"
+        },{
+            "type": "currency",
+            "class":"price",
+            "id":"price",
+            "value":"0.00"
+        },{
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Disclaimer copy if needed"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+ {
+    "id": "12",
+    "slug":"57b",
+    "name":"7 x 5 Sale",
+    "description": "",
+    "width":"7",
+    "height":"5",
+    "themes": [
+        {"id":"CD"},
+        {"id":"DD"},
+        {"id":"DS"},
+        {"id":"LD"},
+        {"id":"SD"}
+    ],
+    "fields": [
+        {
+            "type": "text",
+            "class":"heading",
+            "id":"heading",
+            "value":"Product Name or Sale Items"                        
+        },
+        {
+            "type": "text",
+            "class":"description",
+            "id":"description",
+            "value":"00% OFF"
+        },
+        {
+            "type": "disclaimer",
+            "class":"disclaimer",
+            "id":"disclaimer",
+            "value":"Disclaimer copy if needed"
+        }
+    ]
+}

@@ -627,3 +627,118 @@
     background-color: white;
     padding: 55px 40px;
 }
+
+
+/**
+ * 12 - 57b
+ */
+#thumbnail.template-57b {
+    left: -193px;
+    top: -92px;
+}
+#review.template-57b {
+    margin: 0
+}
+.template-57b {
+    color:white;
+    height: 500px;
+    height: 5in;
+    overflow: hidden;
+    width: 700px;
+    width: 7in;
+}
+.template-57b .description {
+    font-size: 125px;
+    font-weight: bold;
+    left: 20px;
+    letter-spacing: -3px;
+    line-height: 38px;
+    top: 287px;
+    width: 630px;
+}
+.template-57b .disclaimer {
+    font-style: italic;
+    left: 27px;
+    top: 421px;
+    text-align: center;
+    width: 620px;
+    font-size: 15px;
+}
+.template-57b .heading {
+    font-size: 47px;
+    font-weight: bold;
+    left: 20px;
+    letter-spacing: -3px;
+    line-height: 85px;
+    top: 166px;
+    width: 630px;
+}
+
+/**
+ * 13 - 57c
+ */
+#thumbnail.template-57c {
+    left: -193px;
+    top: -92px;
+}
+#review.template-57c {
+    margin: 0
+}
+.template-57c {
+    height: 500px;
+    height: 5in;
+    overflow: hidden;
+    width: 700px;
+    width: 7in;
+}
+.template-57c .description {
+    font-style: italic;
+    font-size: 31px;
+    font-weight: 100;
+    left: 20px;
+    letter-spacing: -2px;
+    line-height: 38px;
+    top: 105px;
+    width: 630px;
+    font-weight: bold;
+}
+.template-57c .disclaimer {
+    font-style: italic;
+    left: 156px;
+    top: 413px;
+    text-align: left;
+    width: 490px;
+    font-size: 14px;
+    color: black;
+}
+.template-57c .heading {
+    font-size: 88px;
+    font-weight: bold;
+    left: 20px;
+    letter-spacing: -3px;
+    line-height: 85px;
+    top: 22px;
+    width: 630px;
+}
+.template-57c .price {
+    font-size: 118px;
+    font-weight: bold;
+    left: 22px;
+    letter-spacing: 2px;
+    line-height: 74px;
+    top: 174px;
+    width: 622px;
+}
+.template-57c .price .dollar-sign {
+    vertical-align: top
+}
+.template-57c .price .dollar-amt {
+    font-size: 210px;
+    line-height: 150px;
+}
+.template-57c .price .cents-amt {
+    vertical-align: top
+}
+.template-57c .price .decimal {
+    display: none
+}

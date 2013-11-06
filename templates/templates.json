@@ -87,5 +87,21 @@
         "keywords": "11 x 8.5, 11x8.5, name, description, percent, red, sale, landscape, sideways, horizontal",
         "size":93.5,
         "thumbnail":"img/layout/8511f_thumbnail.png"
+    },{
+        "id": 12,
+        "slug":"57b",
+        "name":"7 x 5 Sale",
+        "description": "",
+        "keywords": "7 x 5, 7x5, name, percent, red, sale, discliamer, landscape, sideways, horizontal",
+        "size":35,
+        "thumbnail":"img/layout/57b_thumbnail.png"
+    },{
+        "id": 13,
+        "slug":"57c",
+        "name":"7 x 5",
+        "description": "",
+        "keywords": "7 x 5, 7x5, name, price, discliamer, landscape, sideways, horizontal",
+        "size":35,
+        "thumbnail":"img/layout/57c_thumbnail.png"
     }
 ]
